@@ -5,8 +5,8 @@ lab50:
     - terminal
 
   files: 
-   - !exclude "*"
-   - !include lab2.py
+    - !exclude "*"
+    - !include lab2.py
 
 check50: 
   files: &check50_files

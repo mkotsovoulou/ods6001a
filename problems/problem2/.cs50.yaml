@@ -4,14 +4,14 @@ lab50:
     - readme
     - terminal
 
-files: 
-   - !exclude "*"
-   - !include problem1.py
+  files: 
+    - !exclude "*"
+    - !include problem2.py
 
 check50: 
   files: &check50_files
     - !exclude "*"
-    - !require problem1.py
+    - !require problem2.py
 
 submit50: 
   files: *check50_files
