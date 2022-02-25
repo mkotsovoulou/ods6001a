@@ -4,7 +4,7 @@ lab50:
     - readme
     - terminal
 
-  files: 
+files: 
    - !exclude "*"
    - !include problem1.py
 
@@ -13,6 +13,6 @@ check50:
     - !exclude "*"
     - !require problem1.py
 
-  submit50: 
-    files: *check50_files
-    style: true
+submit50: 
+  files: *check50_files
+  style: true
