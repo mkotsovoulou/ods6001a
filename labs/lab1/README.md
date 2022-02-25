@@ -16,6 +16,8 @@ Execute your program by typing: `python lab1.py` in the terminal window at botto
 
 How curious!
 - Python thinks that 1+1=11
+
+
 {% next %}
 
 ### Not what you expected!
@@ -31,11 +33,13 @@ Try to convert your x and y inputs into a numeric data type.
 If you need extra help ...
 {% spoiler "Hint 2" %}
   Consider using the float function, so your program can add floating point numbers as well as integers!
+
 {% endspoiler %}
 
 {% next %}
 
-And here is the Solution...
+If you want extra help... here is the solution:
+
 {% spoiler "Solution" %}
   z = float(x) + float(y)
 {% endspoiler %}
