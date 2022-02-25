@@ -13,6 +13,6 @@ check50:
     - !exclude "*"
     - !require types.py
 
-  submit50: 
-    files: *check50_files
-    style: true
+submit50: 
+  files: *check50_files
+  style: true
