@@ -1,7 +1,6 @@
 # Python Lab 1: Variables and Types
 
-Recall that Python supports multiple "types," among them strings and integers. 
-Suffice it to say the type of a variable matters!
+Recall that Python supports multiple "data types" among them strings and integers. Is important to say the data type of a variable matters!
 
 Consider the program in `lab1.py` in the text editor at top-right. At first glance, it looks like it
 
@@ -11,10 +10,12 @@ Consider the program in `lab1.py` in the text editor at top-right. At first glan
 
 But let's look more closely.
 
-Type `python lab1.py` in the terminal window at bottom-right, followed by Enter. When prompted for `x`, input `1`, followed by Enter. When prompted for `y`, again input `1`, followed by Enter.
+Execute your program by typing: `python lab1.py` in the terminal window at bottom-right, followed by Enter. 
+- When prompted for `x`, input `1`, followed by Enter. 
+- When prompted for `y`, again input `1`, followed by Enter.
 
 How curious!
-
+- Python thinks that 1+1=11
 {% next %}
 
 ### Not what you expected!
@@ -23,12 +24,13 @@ Contrary to what this program thinks, 1 plus 1 does not equal 11! The sum should
 Modify `lab1.py` in the text editor at top-right in such a way that the program correctly outputs the sum of `x` and `y`.
 
 {% spoiler "Hint 1" %}
-Try to convert your x and y inputs into a numeric data type
+Try to convert your x and y inputs into a numeric data type.
+
 {% endspoiler %}
 
 If you need extra help ...
 {% spoiler "Hint 2" %}
-  Consider using the float function
+  Consider using the float function, so your program can add floating point numbers as well as integers!
 {% endspoiler %}
 
 {% next %}

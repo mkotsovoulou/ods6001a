@@ -1,11 +1,10 @@
-# Python Lab 2: Build-in Functions
+# Python Lab 2: Using Build-in Functions
 
 In `lab2.py` in the text editor at top-right, write a few python commands to:
-1. ask the user to type their name
-2. store the name in a variable
-3. display the length of the name
-4. convert the name in upper case letters
-5. display the lowest character in alphabetical order in the name
+1. ask the user to type their name and store it in a variable
+2. display the length of the name
+3. convert the name in upper case letters
+4. display the lowest character in alphabetical order in the name
 
 {% spoiler "Hint 1" %}
 - the built-in function to count the characters in a string is: `len()`
