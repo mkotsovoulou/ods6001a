@@ -61,7 +61,7 @@ Make sure that the output is 2.0!
 Execute the below to evaluate the correctness of your code using `check50`, but be sure to test it yourself before that...
 
 ```
-check50 mkotsovoulou/ODS6001-A/main/labs/lab1
+check50 mkotsovoulou/ods6001a/main/labs/lab1
 ```
 
 Execute the below to evaluate the style of your code using `style50`.
@@ -80,6 +80,6 @@ If you do not have generated a Personal Access ToKen follow the instructions:
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
 ```
-submit50 mkotsovoulou/ODS6001-A/main/labs/lab1
+submit50 mkotsovoulou/ods6001a/main/labs/lab1
 ```
 

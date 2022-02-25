@@ -17,10 +17,10 @@ Enter rate per hour: 2.75
 
 Remember in order to execute your code you type in the terminal:
 ```
-python problem1.py
+python3 problem1.py
 ```
 
-YIf you want you can test your program with different inputs!
+If you want you can test your program with different inputs!
 
 {% next %}
 
@@ -29,7 +29,7 @@ YIf you want you can test your program with different inputs!
 Execute the below to evaluate the correctness of your code using `check50`, but be sure to test it yourself before that...
 
 ```
-check50 mkotsovoulou/ODS6001-A/main/problems/problem1
+check50 mkotsovoulou/ods6001a/main/problems/problem1
 ```
 
 Execute the below to evaluate the style of your code using `style50`.
@@ -48,6 +48,6 @@ If you do not have generated a Personal Access ToKen follow the instructions:
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
 ```
-submit50 mkotsovoulou/ODS6001-A/main/problems/problem1
+submit50 mkotsovoulou/ods6001a/main/problems/problem1
 ```
 

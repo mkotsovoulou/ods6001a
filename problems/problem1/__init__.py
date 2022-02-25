@@ -9,5 +9,5 @@ def exists():  # the name of the check
 
 @check50.check(exists)  # only run this check if the exists check has passed
 def prints2():
-    """Does the program print 4 when your input is John """
+    """Does the program return 96.25 when the input is 35 and 2.75? """
     check50.run("python3 problem1.py").stdin("35").stdin("2.75").stdout("96.25\n").exit(0)
