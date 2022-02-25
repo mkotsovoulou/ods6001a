@@ -1,4 +1,4 @@
-# Python Lab 2: Using Build-in Functions
+# Python Lab 1.2: Using Build-in Functions
 
 In `lab2.py` in the text editor at top-right, write a few python commands to:
 1. ask the user to type their name and store it in a variable
