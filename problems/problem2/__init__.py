@@ -1,6 +1,5 @@
 import check50  # import the check50 module
 
-
 @check50.check()  # tag the function below as check50 check
 def exists():  # the name of the check
     """Is your file saved as problem2.py"""  # this is what you will see when running check50
