@@ -1,8 +1,7 @@
 # Programming Exercise 2: Conditional Execution
 
-Enhance programming exercise 1 to calculate the pay 1.5 times the hourly rate when hours worked are more than 40.
+Enhance programming exercise 1 to calculate the pay 1.5 times the hourly rate for all hours worked above 40. The code to prompt the user for input is already created for you...
 
-The code to prompt the user for input is already created for you...
 Compute and display the amount to pay depending on the hours worked.
 
 Use 35 hours and a rate of 2.75 per hour to test the program (the pay should be 96.25). 
