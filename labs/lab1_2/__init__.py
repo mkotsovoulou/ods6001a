@@ -10,4 +10,4 @@ def exists():  # the name of the check
 @check50.check(exists)  # only run this check if the exists check has passed
 def prints2():
     """Does the program print 4 when your input is John """
-    check50.run("python3 lab1_2.py").stdin("John").stdout("4\n").stdout("J\n").exit(0)
+    check50.run("python3 lab1_2.py").stdin("John").stdout("4\n").stdout("H\n").exit(0)

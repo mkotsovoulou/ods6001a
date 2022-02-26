@@ -39,7 +39,7 @@ Remember in order to execute your code, you type in the terminal:
 ```
 python3 lab1_2.py
 ```
-Make sure that the output is correct. For John it should be 4, and the lowest letter is J
+Make sure that the output is correct. For John it should be 4, and the lowest letter is H
 
 {% next %}
 
