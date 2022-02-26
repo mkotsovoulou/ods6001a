@@ -2,7 +2,7 @@
 
 Recall that Python supports multiple "data types" among them strings, floats and integers. Is important to note that the data type of a variable matters!
 
-Consider the program in `lab1.py` in the text editor at top-right. At first glance, it looks like it
+Consider the program in `lab1_1.py` in the text editor at top-right. At first glance, it looks like it
 
 1. prompts the user for two inputs, `x` and `y`,
 2. adds `x` and `y`, storing the sum in `z`, and
@@ -10,7 +10,7 @@ Consider the program in `lab1.py` in the text editor at top-right. At first glan
 
 But let's look more closely.
 
-Execute your program by typing: `python lab1.py` in the terminal window at bottom-right, followed by Enter. 
+Execute your program by typing: `python lab1_1.py` in the terminal window at bottom-right, followed by Enter. 
 - When prompted for `x`, input `1`, followed by Enter. 
 - When prompted for `y`, again input `1`, followed by Enter.
 
@@ -23,7 +23,7 @@ How curious!
 ### Not what you expected!
 Contrary to what this program thinks, 1 plus 1 does not equal 11! The sum should, of course, equal 2.
 
-Modify `lab1.py` in the text editor at top-right in such a way that the program correctly outputs the sum of `x` and `y`.
+Modify `lab1_1.py` in the text editor at top-right in such a way that the program correctly outputs the sum of `x` and `y`.
 
 {% spoiler "Hint 1" %}
 Try to convert your x and y inputs into a numeric data type.

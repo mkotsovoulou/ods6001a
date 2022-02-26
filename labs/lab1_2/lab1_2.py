@@ -1,5 +1,6 @@
 #Ask the user: What is your name?
 
+
 #Display how many characters the name contains
 
 

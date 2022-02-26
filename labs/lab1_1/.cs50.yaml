@@ -6,12 +6,12 @@ lab50:
 
   files: 
    - !exclude "*"
-   - !include types.py
+   - !include lab1_1.py
 
 check50: 
   files: &check50_files
     - !exclude "*"
-    - !require types.py
+    - !require lab1_1.py
 
 submit50: 
   files: *check50_files

@@ -6,12 +6,12 @@ lab50:
 
   files: 
     - !exclude "*"
-    - !include problem2.py
+    - !include assignment2.py
 
 check50: 
   files: &check50_files
     - !exclude "*"
-    - !require problem2.py
+    - !require assignment2.py
 
 submit50: 
   files: *check50_files
