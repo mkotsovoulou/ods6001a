@@ -18,10 +18,15 @@ Keep in mind that this solution is not the only solution. There are different wa
 And here is the Solution...
 
 {% spoiler "Solution" %}
+
 name = input("What is your name?")
+
 print(len(name))
+
 name = name.upper()
+
 print(min(name))
+
 {% endspoiler %}
 
 ### Execute your program 
