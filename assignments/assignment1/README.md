@@ -17,7 +17,7 @@ Enter rate per hour: 2.75
 
 Remember in order to execute your code you type in the terminal:
 ```
-python3 assignment1.py
+python assignment1.py
 ```
 
 If you want you can test your program with different inputs!
