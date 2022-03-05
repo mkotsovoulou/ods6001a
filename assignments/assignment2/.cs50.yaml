@@ -6,6 +6,7 @@ lab50:
 
   files: 
     - !exclude "*"
+    - !exclude "__init__.py"
     - !include assignment2.py
 
 check50: 
