@@ -12,8 +12,11 @@ Remember: You should use input to read a string and float() to convert the strin
 Use the following test data to make sure your program produces correct resutls.
 
 Enter hours worked: 35
+
 Enter rate per hour: 2.75
+
 96.25
+
 
 Remember in order to execute your code you type in the terminal:
 ```
