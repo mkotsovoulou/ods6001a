@@ -18,3 +18,10 @@ def test2():
     """Does the program calculate correct pay for hours more than 40?"""
     check50.run("python3 assignment2.py").stdin(
         "45").stdin("10.50").stdout("498.75\n").exit(0)
+
+# only run this check if the exists check has passed
+@check50.check(exists)
+def test3():
+    """Does the program display Wrong input if character/s are provided as input ?"""
+    check50.run("python3 assignment2.py").stdin(
+        "a").stdout("Wrong input\n").exit(0)
