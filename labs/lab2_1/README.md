@@ -46,11 +46,18 @@ Enter your score: 60
 
 D
 
-
+{% next %}
 
 ### Check Your Code
 
-Execute the below to evaluate the correctness of your code using `check50`, but be sure to test it yourself before that...
+Execute the below to evaluate the correctness of your code using `check50`, but be sure to test it yourself using
+
+
+- [x] a number out of the valid range
+- [x] a character or word as input
+- [x] a number below 60
+- [x] a number in every possible range :tada:
+
 
 ```
 check50 mkotsovoulou/ods6001a/main/labs/lab2_1
