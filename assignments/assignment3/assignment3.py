@@ -1,4 +1,5 @@
 # Function areaTriangle definition
+# correct the function to accept parameters
 def areaTriangle():
     base = 5
     height = 4
