@@ -1,14 +1,12 @@
 # Programming Exercise 2: Conditional Execution and Exception Handling
 
-Enhance assignment 1 to calculate the pay 1.5 times the hourly rate for all hours worked above 40. The code to prompt the user for input is already created for you...
+Enhance assignment 1 to calculate the pay 1.5 times the hourly rate for all hours worked above 40. 
+
+The code to prompt the user for input is already created for you...
 
 Add exception handling so if the user types characters instead of a number the program displays `Wrong input`
 
-Compute and display the amount to pay depending on the hours worked.
-
-Use 35 hours and a rate of 2.75 per hour to test the program (the pay should be 96.25). 
-
-Use 45 hours and a rate of 10.50 per hour to test the program once more (the pay should be 498.75).
+Compute and display **only** the amount to pay depending on the hours worked.
 
 {% next %}
 
@@ -30,7 +28,6 @@ Enter rate per hour: 2.75
 96.25
 
 
-
 ### TEST 2:
 
 Enter hours worked: 45
@@ -39,7 +36,7 @@ Enter rate per hour: 10.50
 
 498.75
 
-{% next %}
+
 
 ### TEST 3:
 
@@ -47,7 +44,7 @@ Enter hours worked: a
 
 Wrong input
 
-
+----------------------------------------------------------------
 If you want you can test your program with different inputs!
 
 {% next %}
