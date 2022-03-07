@@ -10,6 +10,7 @@ Use 35 hours and a rate of 2.75 per hour to test the program (the pay should be 
 
 Use 45 hours and a rate of 10.50 per hour to test the program once more (the pay should be 498.75).
 
+{% next %}
 
 ## Execute your program 
 
@@ -28,7 +29,7 @@ Enter rate per hour: 2.75
 
 96.25
 
-{% next %}
+
 
 ### TEST 2:
 
@@ -43,6 +44,7 @@ Enter rate per hour: 10.50
 ### TEST 3:
 
 Enter hours worked: a
+
 Wrong input
 
 
