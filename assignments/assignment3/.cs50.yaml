@@ -7,12 +7,12 @@ lab50:
   files: 
     - !exclude "*"
     - !exclude "__init__.py"
-    - !include assignment2.py
-
+    - !include assignment3.py
+    
 check50: 
   files: &check50_files
     - !exclude "*"
-    - !require assignment2.py
+    - !require assignment3.py
 
 submit50: 
   files: *check50_files
