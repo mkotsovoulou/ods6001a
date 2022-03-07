@@ -1,6 +1,7 @@
 # Programming Exercise 3: Functions
 
-Change the code so that **areaTriangle** takes parameters for the **base** and **height** of a triangle and computes its area. 
+Change the code in `assignment3.py` so that **areaTriangle** takes parameters for the **base** and **height** of a triangle and computes its area. 
+The formula provided is correct.
 
 Then, write code to call the function and print the result. 
 
