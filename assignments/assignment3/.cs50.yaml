@@ -1,0 +1,19 @@
+lab50:
+  window:   
+    - editor
+    - readme
+    - terminal
+
+  files: 
+    - !exclude "*"
+    - !exclude "__init__.py"
+    - !include assignment2.py
+
+check50: 
+  files: &check50_files
+    - !exclude "*"
+    - !require assignment2.py
+
+submit50: 
+  files: *check50_files
+  style: true
