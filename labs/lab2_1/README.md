@@ -12,7 +12,7 @@ In `lab2_1.py` in the text editor at top-right, write a few python commands to:
 {% spoiler "Hint 1 : Validate range " %}
 
 ```
-if score < 0 or score > 100:
+if score < 0 or score > 100 :
     print('Invalid score')`
 ```
 {% endspoiler %}
@@ -20,13 +20,15 @@ if score < 0 or score > 100:
 
 {% spoiler "Hint 2 : Invalid Input " %}
 
-use a try/except block after reading the score and converting to a floating point number
+use a try/except block after reading the score 
+which will include the conversion to a floating point number...
+and exit the program if the input is invalid.
 
 ```
 try:
     score = float(score)
 except:
-    print(Wrong input)
+    print('Wrong input')
     quit()
 ```
 
@@ -35,7 +37,27 @@ except:
 {% spoiler "Hint 3 : Finding the letter grade " %}
 
 ```
-if score < 60: 
+if score < 60 : 
+    print('F')
+elif score < 70 :
+    print('D')
+elif score < 80 :
+    print('C')
+elif score < 90 :
+    print('B')
+else:
+    print('A')
+```
+
+{% endspoiler %}
+
+
+{% spoiler "Hint 4 : Putting it all together..." %}
+
+```
+if score < 0 or score > 100:
+    print('Invalid score')
+elif score < 60: 
     print('F')
 elif score < 70:
     print('D')
