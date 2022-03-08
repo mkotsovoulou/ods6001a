@@ -4,7 +4,7 @@ In `lab2_1.py` in the text editor at top-right, write a few python commands to:
 1. Ask the user to type their score in a test and store it in a variable
 2. Test if the score entered by the user falls within the valid range from 0 to 100. If not display `Invalid score`.
 3. If the user enters character/s instead of a number display `Wrong input`.
-4. Using the following table find and display the letter grade of the user score.
+4. Using the following table to find and display the letter grade of the user score.
 
 ![Image of ranges](ranges.png)
 
@@ -16,6 +16,33 @@ if score < 0 or score > 100:
 
 {% endspoiler %}
 
+
+{% spoiler "Hint 2 : Invalid Input " %}
+
+use a try/except block after reading the score and converting to a floating point number
+
+try:
+    score = float(score)
+except:
+    print(Wrong input)
+    quit()
+
+{% endspoiler %}
+
+{% spoiler "Hint 3 : Finding the letter grade " %}
+
+if score < 60: 
+    print('F')
+elif score < 70:
+    print('D')
+elif score < 80:
+    print('C')
+elif score < 90:
+    print('B')
+else:
+    print('A')
+
+{% endspoiler %}
 
 {% next %}
 
@@ -50,7 +77,7 @@ D
 
 ### Check Your Code
 
-Execute the below to evaluate the correctness of your code using `check50`, but be sure to test it yourself using
+Execute the below to evaluate the correctness of your code using `check50`, but be sure to test it yourself using:
 
 
 - [x] a number out of the valid range
@@ -83,3 +110,4 @@ submit50 mkotsovoulou/ods6001a/main/labs/lab2_1
 ```
 
 # Done!
+:tada:

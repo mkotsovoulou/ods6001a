@@ -70,3 +70,5 @@ https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/c
 submit50 mkotsovoulou/ods6001a/main/labs/lab1_2
 ```
 
+# Done!
+:tada:
