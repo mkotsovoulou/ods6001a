@@ -11,9 +11,10 @@ In `lab2_1.py` in the text editor at top-right, write a few python commands to:
 
 {% spoiler "Hint 1 : Validate range " %}
 
+```
 if score < 0 or score > 100:
-    print('Invalid score')
-
+    print('Invalid score')`
+```
 {% endspoiler %}
 
 
@@ -21,16 +22,19 @@ if score < 0 or score > 100:
 
 use a try/except block after reading the score and converting to a floating point number
 
+```
 try:
     score = float(score)
 except:
     print(Wrong input)
     quit()
+```
 
 {% endspoiler %}
 
 {% spoiler "Hint 3 : Finding the letter grade " %}
 
+```
 if score < 60: 
     print('F')
 elif score < 70:
@@ -41,6 +45,7 @@ elif score < 90:
     print('B')
 else:
     print('A')
+```
 
 {% endspoiler %}
 

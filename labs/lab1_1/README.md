@@ -26,12 +26,14 @@ Contrary to what this program thinks, 1 plus 1 does not equal 11! The sum should
 Modify `lab1_1.py` in the text editor at top-right in such a way that the program correctly outputs the sum of `x` and `y`.
 
 {% spoiler "Hint 1" %}
+
 Try to convert your x and y inputs into a numeric data type.
 
 {% endspoiler %}
 
 If you need extra help ...
 {% spoiler "Hint 2" %}
+
   Consider using the float function, so your program can add floating point numbers as well as integers!
 
 {% endspoiler %}
@@ -41,7 +43,9 @@ If you need extra help ...
 If you want extra help... here is the solution:
 
 {% spoiler "Solution" %}
+ ```
   z = float(x) + float(y)
+ ```
 {% endspoiler %}
 
 ### Execute your program 
@@ -50,7 +54,7 @@ Provide the value 1 for x, and 1 for y
 
 Remember in order to execute your code you type in the terminal:
 ```
-python lab1.py
+python lab1_1.py
 ```
 Make sure that the output is 2.0!
 
