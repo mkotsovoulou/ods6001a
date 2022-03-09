@@ -1,4 +1,4 @@
-# Python Lab 2.2: Repetition 
+# Python Lab 2.2: Functions - Repetition - Validation
 In `lab2_2.py` in the text editor at top-right, write a program which will:
 
 1. Define an add() function:
