@@ -17,7 +17,7 @@ In `lab2_2.py` in the text editor at top-right, write a program which will:
     - Display the `sum`
 
 
-{% spoiler "Define the Function to accept a parameter" %}
+{% spoiler "Hint 1: Modify the Function to accept a parameter 'x'" %}
 
 ```
 def add(x):
@@ -41,8 +41,10 @@ which will include the conversion to a floating point number...
 and exit the program if the input is invalid.
 
 ```
+num = input("Type a number to add: ")
+# validate that the user types a number - if not display 'Wrong input' and quit
 try:
-    num = float(score)
+    num = float(num)
 except:
     print('Wrong input')
     quit()
