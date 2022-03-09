@@ -9,4 +9,4 @@ def exists():  # the name of the check
 @check50.check(exists)  # only run this check if the exists check has passed
 def test1():
     """Does the program calculate the area of a triangle with base 12 and height 45 correctly ? """
-    check50.run("python3 assignment3.py").stdout("270\n").exit(0)
+    check50.run("python -c from assignment3 import areaTriangle;print(areaTriangle(12, 45)) ").stdout("270\n").exit(0)
