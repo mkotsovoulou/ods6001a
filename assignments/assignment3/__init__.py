@@ -21,7 +21,7 @@ def test2(exists):
 
 
 @check50.check(exists)  # only run this check if the exists check has passed
-def test2(exists):
+def test3(exists):
     """Does the program handle wrong input ? """
     check50.run(
         "python assignment3.py").stdin("a").stdout("^[Ww]rong [Ii]nput\.?\n").exit(0)
