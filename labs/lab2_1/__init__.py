@@ -30,4 +30,4 @@ def test3():
 def test4():
     """Does the program print 'Wrong input' for a score of aa? """
     check50.run("python3 lab2_1.py").stdin(
-        "aa").stdout("Invalid input\n").exit(0)
+        "aa").stdout("Wrong input\n").exit(0)
