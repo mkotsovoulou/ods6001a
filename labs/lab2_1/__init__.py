@@ -22,9 +22,11 @@ def test2():
 @check50.check(exists)
 def test3():
     """Does the program print 'Invalid score' for a score of 102? """
-    check50.run("python3 lab2_1.py").stdin("102").stdout("Invalid input\n").exit(0)
+    check50.run("python3 lab2_1.py").stdin(
+        "102").stdout("Invalid score\n").exit(0)
 
 
+@check50.check(exists)
 def test4():
     """Does the program print 'Wrong input' for a score of aa? """
     check50.run("python3 lab2_1.py").stdin(
