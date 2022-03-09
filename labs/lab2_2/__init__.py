@@ -13,10 +13,12 @@ def test1(exists):
     check50.run("python3 lab2_2.py").stdin("2").stdout("Type a number to add:").stdin("1").stdout("Type a number to add:").stdin(
         "-1").stdout("0.0\n").exit(0)
 
-@check50.check(exists)  # only run this check if the exists check has passed
+@check50.check(test1)  # only run this check if the exists check has passed
 def test2():
     """Does the program print 25 for 5 inputs (5,5,5,5,5) """
-    check50.run("python3 lab2_2.py").stdin("5").stdin("5").stdin("5").stdin("5").stdin("5").stdout("25.0\n").exit(0)
+    check50.run("python3 lab2_2.py").stdin("5").stdout("Type a number to add:").stdin("5").stdout("Type a number to add:").stdin(
+        "5").stdout("Type a number to add:").stdin("5").stdout("Type a number to add:").stdin(
+        "5").stdout("Type a number to add:").stdin("5").stdout("25.0\n").exit(0)
 
 @check50.check(exists)  # only run this check if the exists check has passed
 def test3():
