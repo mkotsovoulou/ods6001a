@@ -1,17 +1,22 @@
 # Programming Exercise 3: Functions
 
 Change the code in `assignment3.py` so that **areaTriangle** takes parameters for the **base** and **height** of a triangle and computes its area. 
-The formula provided is correct.
+The formula provided is correct (base*height)/2
 
-Then, write code to call the function and print the result. 
+Test your function with base = 12 and height = 45 the function should return 270.
 
-For example, areaTriangle(12,45) should return 270.
+Then, enhance your code to:
+- Ask the user to provide input from base and height.
+- Validate user input to be positive integer numbers.
+- Display 'Wrong input' if not valid and quit.
+- Call the function to calculate the area and print the result. 
 
 {% next %}
 
-## Execute your program 
+## Execute and test your program 
 
 Remember in order to execute your code you type in the terminal:
+
 ```
 python assignment3.py
 ```

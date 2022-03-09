@@ -23,11 +23,12 @@ def test2():
 @check50.check(exists)  # only run this check if the exists check has passed
 def test3():
     """Does the program print 'Wrong input' for input a? """
-    check50.run("python3 lab2_2.py").stdin("a").stdout("Wrong input\n").exit(0)
+    check50.run("python3 lab2_2.py").stdin(
+        "a").stdout("^[Ww]rong [Ii]nput\.?\n").exit(0)
 
 
 @check50.check(exists)  # only run this check if the exists check has passed
 def test4():
     """Does the program print 'Wrong input' for 2 inputs (1,a)? """
     check50.run("python3 lab2_2.py").stdin("2").stdin(
-        "a").stdout("Wrong input\n").exit(0)
+        "a").stdout("^[Ww]rong [Ii]nput\.?\n").exit(0)
