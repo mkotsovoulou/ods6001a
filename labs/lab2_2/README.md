@@ -24,7 +24,7 @@ def add(x):
     total = 0
     count = 0
     # repeat the steps below "x" times:
-        # ask the user for a number 
+        # ask the user for a number using the following prompt: 'Type a number to add:'
         # validate that the user types a number - if not display 'Wrong input' and quit
         # add the number to the total
         # increment the count variable
@@ -155,6 +155,7 @@ Wrong input
 Enter your score: 3
 
 5
+
 a
 
 Wrong input
