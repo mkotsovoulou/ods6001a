@@ -16,5 +16,4 @@ def add():
 # Call the add function by passign numbers as an argument. Assign the value returned from the function to the sum variable
 sum = 0
 
-
 # print the sum
