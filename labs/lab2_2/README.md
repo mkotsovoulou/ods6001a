@@ -5,7 +5,7 @@ In `lab2_2.py` in the text editor at top-right, write a program which will:
     - The function should accept one parameter called `x`, and return the `total`
     - total is initialized to 0
     - The main part of the function should repeat the steps below `x` times:
-        - ask the user for a floating point number 
+        - ask the user for a floating point number, using the prompt: `Type a number to add:`
         - validate that the user types a number - if not, display `Wrong input` and quit
         - add the number to the total
         - increment the count variable to keep track of how many times the loop executes (if you use a while loop)
@@ -17,14 +17,14 @@ In `lab2_2.py` in the text editor at top-right, write a program which will:
     - Display the `sum`
 
 
-{% spoiler "Hint 1: Modify the Function to accept a parameter 'x'" %}
+{% spoiler "Hint 1: Modify the Function to accept a parameter `x` " %}
 
 ```
 def add(x):
     total = 0
     count = 0
     # repeat the steps below "x" times:
-        # ask the user for a number using the following prompt: 'Type a number to add:'
+        # ask the user for a number 
         # validate that the user types a number - if not display 'Wrong input' and quit
         # add the number to the total
         # increment the count variable
@@ -87,7 +87,7 @@ def add(x):
     total = 0
     for count in range (x) :
         # ask the user for a number
-        num = input("Type a number to add: ")
+        num = input("Type a number to add:")
         # validate that the user types a number - if not display 'Wrong input' and quit
         try:
             num = float(num)
