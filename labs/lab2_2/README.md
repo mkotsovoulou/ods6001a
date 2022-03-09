@@ -135,13 +135,13 @@ Use the following test data to make sure your program produces correct resutls.
 
 How many numbers to you want to add: 3
 
-5
+Type a number to add:5
 
-5
+Type a number to add:5
 
-5
+Type a number to add:5
 
-15
+15.0
 
 
 ### TEST 2:
@@ -154,9 +154,9 @@ Wrong input
 
 Enter your score: 3
 
-5
+Type a number to add:5
 
-a
+Type a number to add:a
 
 Wrong input
 
