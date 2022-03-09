@@ -110,7 +110,9 @@ except:
     print("Wrong input")
     quit()
 
-print(add(times))
+sum=(add(times))
+print(sum)
+
 ```
 
 {% endspoiler %}
