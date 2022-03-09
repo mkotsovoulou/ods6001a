@@ -10,4 +10,4 @@ def exists():  # the name of the check
 def test1():
     """Does the program calculate the area of a triangle with base 12 and height 45 correctly ? """
     check50.run(
-        "python -c \"from assignment3 import areaTriangle;print(areaTriangle(12, 45))\"").stdout("270\n").exit(0)
+        "python -c \"from assignment3 import areaTriangle;print(areaTriangle(12, 45))\"").stdout("270.0\n").exit(0)
