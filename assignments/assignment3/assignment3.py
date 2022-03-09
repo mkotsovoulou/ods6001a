@@ -5,6 +5,16 @@ def areaTriangle():
     height = 4
     return (5 * 4) / 2
 
-# Call the function with base 12 and height 45 and print the result
+# this is the main program function
+def main():
+    #Write your code here...
 
 
+
+
+
+
+
+#DO NOT MODIFY THIS CODE
+if __name__ == '__main__':
+    main()
