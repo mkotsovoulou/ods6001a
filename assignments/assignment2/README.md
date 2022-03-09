@@ -1,6 +1,8 @@
 # Programming Problem 2: Conditional Execution and Exception Handling
 
-> The purpose of this assignment is to test your understanding and application of conditional execution and user input validation.
+> The purpose of this assignment is to test your understanding and application of the concepts discussed in week 2:
+> conditional execution
+> user input validation and exception handling
 
 ## Specifications
 
