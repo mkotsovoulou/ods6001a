@@ -11,6 +11,22 @@ Then, enhance your code to:
 - Display 'Wrong input' if not valid and quit.
 - Call the function to calculate the area and print the result. 
 
+
+## Some Technical Details: A Basic Python main()
+
+In some Python scripts, you may see a function definition and a conditional statement that looks like the example below:
+```
+def main():
+    print("Hello World!")
+
+if __name__ == "__main__":
+    main()
+```
+In this code, there is a function called main() that prints the phrase Hello World! when the Python interpreter executes it. There is also a conditional (or if) statement that checks the value of __name__ and compares it to the string "__main__". When the if statement evaluates to True, the Python interpreter executes main().
+
+In this program write your code to accept user input in def main():
+
+
 {% next %}
 
 ## Execute and test your program 
