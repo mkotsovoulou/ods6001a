@@ -1,7 +1,8 @@
-# Programming Probelm 1: Input, Processing, Output
+# Programming Problem 1: Input, Processing, Output
 
-The purpose of this assignment is to test your understanding and application of obtaining user input, performing calculations and producing valid output.
+>The purpose of this assignment is to test your understanding and application of obtaining user input, performing calculations and producing valid output.
 
+*****
 Write a program (use the file `assignment1.py` in the text editor on the right) to prompt the user to input hours worked and rate per hour. Compute and display the amount to pay. 
 
 
