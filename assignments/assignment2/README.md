@@ -1,6 +1,6 @@
 # Programming Problem 2: Conditional Execution and Exception Handling
 
-The purpose of this assignment is to test your understanding and application of conditional execution and user input validation.
+> The purpose of this assignment is to test your understanding and application of conditional execution and user input validation.
 
 Enhance assignment 1 to calculate the pay 1.5 times the hourly rate for all hours worked above 40. 
 
