@@ -13,33 +13,31 @@ In `lab1_2.py` in the text editor at top-right, write a few python commands to:
 
 
 {% next %}
-Keep in mind that this solution is not the only solution. There are different ways to reach to the same result...
+Keep in mind that the sample solution is not the only solution. There are different ways to reach to the same result...
 
 And here is the Solution...
 
-{% spoiler "Solution" %}
+{% spoiler "Sample Solution" %}
 
+```
 name = input("What is your name?")
-
 print(len(name))
-
 name = name.upper()
-
 print(min(name))
+```
 
 {% endspoiler %}
 
 ### Execute your program 
 
-Provide a value for name
-for example: John
-
 Remember in order to execute your code, you type in the terminal:
 
 ```
-python3 lab1_2.py
+python lab1_2.py
 ```
-Make sure that the output is correct. For John it should be 4, and the lowest letter is H
+
+
+Make sure that the output is correct. For `John` it should display `4`, and the lowest letter is `H` (in uppercase)
 
 {% next %}
 

@@ -51,10 +51,20 @@ else:
 
 {% endspoiler %}
 
+{% next %}
 
-{% spoiler "Hint 4 : Putting it all together..." %}
+Keep in mind that the sample solution is not the only solution. 
+There are different ways to reach to the same result...
+
+{% spoiler "Solution : Putting it all together..." %}
 
 ```
+try:
+    score = float(score)
+except:
+    print('Wrong input')
+    quit()
+
 if score < 0 or score > 100:
     print('Invalid score')
 elif score < 60: 
@@ -70,6 +80,7 @@ else:
 ```
 
 {% endspoiler %}
+
 
 {% next %}
 
