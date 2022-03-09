@@ -101,10 +101,16 @@ def add(x):
 
 {% endspoiler %}
 
-{% spoiler "Main program - Call the function with user input..." %}
+{% spoiler "Solution: Main program - Call the add function with validated user input..." %}
 
 ```
+try:
+    times = int(input ("How many numbers do you want to add? "))
+except:
+    print("Wrong input")
+    quit()
 
+print(add(times))
 ```
 
 {% endspoiler %}
