@@ -17,6 +17,23 @@ In `lab2_2.py` in the text editor at top-right, write a program which will:
     - Display the `sum`
 
 
+## Some Technical Details: A Basic Python main()
+
+In some Python scripts, you may see a function definition and a conditional statement that looks like the example below:
+```
+def main():
+    print("Hello World!")
+
+if __name__ == "__main__":
+    main()
+```
+In this code, there is a function called main() that prints the phrase Hello World! when the Python interpreter executes it. There is also a conditional (or if) statement that checks the value of __name__ and compares it to the string "__main__". When the if statement evaluates to True, the Python interpreter executes main().
+
+In this program write your code to accept user input in def main():
+
+{% next %}
+
+
 {% spoiler "Hint 1: Modify the Function to accept a parameter `x` " %}
 
 ```
@@ -54,7 +71,7 @@ except:
 
 You can solve this problem using a while loop with a count variable!
 
-{% spoiler "Hint 3 : repeat the code x times - using a while loop" %}
+{% spoiler "Hint 3a : repeat the code x times - using a while loop" %}
 
 ```
 def add(x):
@@ -80,7 +97,7 @@ def add(x):
 
 You can solve this problem using a for loop with a range!
 
-{% spoiler "Hint 3 : repeat the code x times - using a for loop" %}
+{% spoiler "Hint 3b : repeat the code x times - using a for loop" %}
 
 ```
 def add(x):
@@ -106,14 +123,22 @@ def add(x):
 {% spoiler "Solution: Main program - Call the add function with validated user input..." %}
 
 ```
-try:
-    times = int(input ("How many numbers do you want to add? "))
-except:
-    print("Wrong input")
-    quit()
+# This is the main program function
+def main():
+    try:
+        times = int(input ("How many numbers do you want to add? "))
+    except:
+        print("Wrong input")
+        quit()
 
-sum=(add(times))
-print(sum)
+    sum=(add(times))
+    print(sum)
+
+
+#DO NOT MODIFY THIS CODE
+if __name__ == '__main__':
+    main()
+
 
 ```
 
