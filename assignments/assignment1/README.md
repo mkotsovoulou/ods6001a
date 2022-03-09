@@ -1,13 +1,18 @@
 # Programming Exercise 1: Input, Processing, Output
 
-Write a program (use the file `assignment1.py` in the text editor on the right) to prompt the user to input hours worked and rate per hour.
-Compute and display the amount to pay. 
+The purpose of this assignment is to test your understanding and application of obtaining user input, performing calculations and producing valid output.
 
-Use 35 hours and a rate of 2.75 per hour to test the program (the pay should be 96.25). 
+Write a program (use the file `assignment1.py` in the text editor on the right) to prompt the user to input hours worked and rate per hour. Compute and display the amount to pay. 
 
-Remember: You should use input to read a string and float() to convert the string to a number. Do not worry about error checking or bad user data at this point.
 
-## Execute your program 
+*Remember*: You should use input to read a string and float() to convert the string to a number. Do not worry about error checking or bad user data at this point.
+
+## Execute and Test your program 
+
+*Remember*: in order to execute your code you type in the terminal:
+```
+python assignment1.py
+```
 
 Use the following test data to make sure your program produces correct resutls.
 
@@ -16,12 +21,6 @@ Enter hours worked: 35
 Enter rate per hour: 2.75
 
 96.25
-
-
-Remember in order to execute your code you type in the terminal:
-```
-python assignment1.py
-```
 
 If you want you can test your program with different inputs!
 

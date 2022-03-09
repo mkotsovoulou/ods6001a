@@ -1,9 +1,8 @@
 # Programming Exercise 3: Functions
+The purpose of this assignment is to test if you can successfully define and call your own functions and perform input validation.
 
 Change the code in `assignment3.py` so that **areaTriangle** takes parameters for the **base** and **height** of a triangle and computes its area. 
 The formula provided is correct (base*height)/2
-
-Test your function with base = 12 and height = 45 the function should return 270.
 
 Then, enhance your code to:
 - Ask the user to provide input from base and height.
@@ -29,13 +28,15 @@ In this program write your code to accept user input in def main():
 
 {% next %}
 
-## Execute and test your program 
+## Execute and Test your program 
 
-Remember in order to execute your code you type in the terminal:
+*Remember*: in order to execute your code you type in the terminal:
 
 ```
 python assignment3.py
 ```
+
+Test your function with base = 12 and height = 45 the function should return 270.
 
 
 {% next %}
