@@ -17,4 +17,4 @@ def test1():
 def test2():
     """Does the program call the function with arguments ? """
     check50.run(
-        "python assignment3.py").stdin("12").stdin("45").stdout("270.0\n").exit(0)
+        "python assignment3.py").stdin("12").stdin("44").stdout("270.0\n").exit(0)
