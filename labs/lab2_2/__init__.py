@@ -11,8 +11,8 @@ def test1(exists):
     expected="10.0\n"
     """Does the function return correct results? Is the loop correct ? """
     result = check50.run("python -c \"from lab2_2 import add;print(add(2))\"").stdin(
-        '5').stdin('5').stdout()
-    if result != expected:
+        '5').stdin('5').stdout().exit(0)
+    if result != expected :
         help = "Does your code repeat exactly X times?"
         raise check50.Mismatch(expected, result, help=help)
     
