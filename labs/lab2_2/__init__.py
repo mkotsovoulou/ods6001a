@@ -1,5 +1,4 @@
 import check50  # import the check50 module
-import re
 
 @check50.check()  # tag the function below as check50 check
 def exists():  # the name of the check
@@ -13,7 +12,7 @@ def test1(exists):
     result = check50.run("python -c \"from lab2_2 import add;print(add(2))\"").stdin(
         '5').stdin('5').stdout().exit(0)
     if result != expected :
-        help = "Does your code repeat exactly X times?"
+        help = "Does your code repeat exactly X times? "
         raise check50.Mismatch(expected, result, help=help)
     
 
