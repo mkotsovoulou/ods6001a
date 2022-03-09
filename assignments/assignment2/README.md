@@ -1,4 +1,4 @@
-# Programming Exercise 2: Conditional Execution and Exception Handling
+# Programming Problem 2: Conditional Execution and Exception Handling
 
 The purpose of this assignment is to test your understanding and application of conditional execution and user input validation.
 

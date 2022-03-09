@@ -1,4 +1,4 @@
-# Programming Exercise 1: Input, Processing, Output
+# Programming Probelm 1: Input, Processing, Output
 
 The purpose of this assignment is to test your understanding and application of obtaining user input, performing calculations and producing valid output.
 

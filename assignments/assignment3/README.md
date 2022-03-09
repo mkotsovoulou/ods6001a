@@ -1,4 +1,4 @@
-# Programming Exercise 3: Functions
+# Programming Problem 3: Functions 
 The purpose of this assignment is to test if you can successfully define and call your own functions and perform input validation.
 
 Change the code in `assignment3.py` so that **areaTriangle** takes parameters for the **base** and **height** of a triangle and computes its area. 
