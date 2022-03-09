@@ -1,9 +1,10 @@
 # Programming Problem 3: Functions 
 
-> The purpose of this assignment is to test your understanding and application of the concepts discussed in week 2:
-> define functions that accept parameters and return values
-> call functions with arguments
-> perform user input validation and exception handling
+> The purpose of this assignment is to test your understanding and application of the concepts discussed in **week 2**:
+>
+> - define functions that accept parameters and return values
+> - call functions with arguments
+> - perform user input validation and exception handling
 
 ## Specifications
 

@@ -1,9 +1,10 @@
 # Programming Problem 1: Input, Processing, Output
 
-> The purpose of this assignment is to test your understanding and application of the concepts discussed in week 1: 
-> obtain user input
-> perform calculations and 
-> producing valid output
+> The purpose of this assignment is to test your understanding and application of the concepts discussed in **week 1**: 
+>
+> - obtain user input
+> - perform calculations and 
+> - producing valid output
 
 ## Specifications
 
