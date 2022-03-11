@@ -71,7 +71,7 @@ check50 mkotsovoulou/ods6001a/main/labs/lab1_1
 Execute the below to evaluate the style of your code using `style50`.
 
 ```
-style50 types.py
+style50 lab1_1.py
 ```
 
 {% next %}
