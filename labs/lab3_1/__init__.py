@@ -8,15 +8,15 @@ def exists():  # the name of the check
 
 
 @check50.check(exists)  # only run this check if the exists check has passed
-def test2(exists):
-    """Does the calculate the average correctly ?"""
+def test1(exists):
+    """Does the program calculate the average correctly ?"""
     from re import match
     # check50.run("python3 lab3_1.py").stdout("6.33\n").exit(0)
     expected = "6.33\n"
-    actual = check50.run("python3 lab3_1.py").stdout()
+    actual = check50.run("python3 lab3_1.py").stdint("PYnative29@#8496").stdout()
 
     if actual == '6.333333333333333':
-        help = r"Did you forget to format the output using two decimals?"
+        help = r"Almost! Did you forget to format the output using two decimals?"
     if not match(expected, actual):
         help = None
         raise check50.Mismatch("6.33\n", actual, help=help)
