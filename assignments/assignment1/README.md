@@ -60,7 +60,8 @@ Execute the command below, logging in with your `GitHub username` and `Personal 
 submit50 mkotsovoulou/ods6001a/main/assignments/assignment1
 ```
 
-When you submit your solution, download the code and upload it to Canvas.
+You can re-submit your solution as many times as you want.
+When you are happy with your solution, download the code and upload it to Canvas.
 
 ![Image of download](download.png)
 
