@@ -9,8 +9,8 @@ def exists():  # the name of the check
 
 @check50.check(exists)  # only run this check if the exists check has passed
 def function_test(exists):
-    expected = "2.0\n"
     """Does the function return correct results? """
+    expected = "2.0\n"
     result = check50.run(
         "python -c \"from lab3_1 import avg_digits; print(avg_digits(\'123\'))\"").stdout()
 
