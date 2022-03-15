@@ -87,5 +87,10 @@ https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/c
 submit50 mkotsovoulou/ods6001a/main/labs/lab1_1
 ```
 
+When you submit your solution, download the code and upload it to Canvas.
+
+![Image of download](download.png)
+
+
 # Done!
 :tada:

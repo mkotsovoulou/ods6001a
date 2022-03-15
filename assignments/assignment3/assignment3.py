@@ -5,9 +5,10 @@ def areaTriangle():
     height = 4
     return (5 * 4) / 2
 
+
 # this is the main program function
 def main():
-    #Write your code here...
+    # Write your code here...
 
 
 
@@ -15,6 +16,6 @@ def main():
 
 
 
-#DO NOT MODIFY THIS CODE
+# DO NOT MODIFY THIS CODE
 if __name__ == '__main__':
     main()
