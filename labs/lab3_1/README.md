@@ -12,7 +12,7 @@ In `lab3_1.py` in the text editor at top-right, write a program which will:
 
 2. The main program should:
     - Call the avg_digits() function by passing `str1` as an argument. Assign the value returned from the function to an `average` variable.
-    - Display the `average`.
+    - Display the `average` using only 2 decimal points.
 
 
 ## Some Technical Details: A Basic Python main()
@@ -32,17 +32,20 @@ In this program write your code to accept user input in def main():
 {% next %}
 
 
+You can use a for loop
 
 {% spoiler "Hint 1 : Iterate through every character in a string " %}
 
 ```
 for char in input_str:
     ....
+    ....
 ```
 
 {% endspoiler %}
 
 
+Use char.isgigit() function. This function return true of the character is a digit and false other wise...
 
 {% spoiler "Hint 2 : Check if the character is a digit " %}
 
@@ -62,7 +65,17 @@ def avg_digits(input_str):
 
 {% endspoiler %}
 
-{% next %}
+Use print(f" ") to format your output
+
+{% spoiler "Hint 3 : how to print only two decimals " %}
+
+```
+ print(f"{average:.2}")
+
+```
+
+{% endspoiler %}
+
 
 
 ## Execute your program 
@@ -72,7 +85,9 @@ Remember in order to execute your code you type in the terminal:
 python lab3_1.py
 ```
 
-Check that it produces correct results. For the sample string provided the average should be: XXXX
+Check that your code produces correct results. 
+
+For the sample string provided, the average is:  6.333333333333333 and when formatted using 2 decimals, the correct output should be 6.33
 
 {% next %}
 

@@ -20,7 +20,7 @@ def main():
     # Call the add function by passign str1 as an argument. Assign the value returned from the function to an average variable
     
 
-    # print the average
+    # print the formatted average
 
 
 
