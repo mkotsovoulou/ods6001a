@@ -14,7 +14,7 @@ def test2(exists):
     # check50.run("python3 lab3_1.py").stdout("6.33\n").exit(0)
     expected = "6.33\n"
     actual = check50.run("python3 lab3_1.py").stdout()
-    
+    help = None
     if actual == '6.333333333333333':
         help = r"Did you forget to format the output using two decimals?"
     if not match(expected, actual):
