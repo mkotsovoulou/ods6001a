@@ -12,7 +12,7 @@ def function_test(exists):
     expected = "2.0\n"
     """Does the function return correct results? """
     result = check50.run(
-        "python -c \"from lab3_1 import avg_digits;print(avg_digits(\"123\"))\"").stdout()
+        "python -c \"from lab3_1 import avg_digits; print(avg_digits(\'123\'))\"").stdout()
 
     if result != expected:
         help = "Have a look at the code in the function... "
@@ -20,9 +20,9 @@ def function_test(exists):
 
 
 # only run this check if the exists check has passed
-@check50.check(function_test)
-def main_test(function_test):
-    """Does the program calculate the average correctly ?"""
+@check50.check(exists)
+def main_test(exists):
+    """Does the program display the average correctly ?"""
     from re import match
     # check50.run("python3 lab3_1.py").stdout("6.33\n").exit(0)
     expected = "6.33\n"
