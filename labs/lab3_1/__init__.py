@@ -13,7 +13,7 @@ def test1(exists):
     from re import match
     # check50.run("python3 lab3_1.py").stdout("6.33\n").exit(0)
     expected = "6.33\n"
-    actual = check50.run("python3 lab3_1.py").stdint("PYnative29@#8496").stdout()
+    actual = check50.run("python3 lab3_1.py").stdin("PYnative29@#8496").stdout()
 
     if actual == '6.333333333333333':
         help = r"Almost! Did you forget to format the output using two decimals?"
