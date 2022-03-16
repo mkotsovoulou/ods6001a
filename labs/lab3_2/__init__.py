@@ -8,7 +8,7 @@ def exists():  # the name of the check
 # only run this check if the exists check has passed
 @check50.check(exists)
 def main_test(exists):
-    """Does the program calcuate the sum xmax from the file ?"""
+    """Does the program calculate the sum xmax correctly ?"""
     check50.run("python3 lab3_2.py").stdout("13487\n").exit(0)
 
 
