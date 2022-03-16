@@ -47,3 +47,10 @@ def test_document(exists):
     check50.run(
         "python assignment4.py").stdin("sample6.txt").stdout("document\n").exit(0)
 
+
+@check50.check(exists)  # only run this check if the exists check has passed
+def test_document(exists):
+    """sample7.txt should return File Not Found """
+    check50.run(
+        "python assignment4.py").stdin("sample7.txt").stdout("^[Ff]ile [Nn]ot [Ff]ound\.?\n").exit(0)
+
