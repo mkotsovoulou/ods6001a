@@ -1,6 +1,6 @@
 # Python Lab 3.1: String manipulation - Functions - Loops
 
-> The purpose of this practice is to help your understanding of the concepts discussed up to this **week 3**: 
+> The purpose of this practice is to help you apply the concepts discussed up to **week 3**: 
 >
 > - obtain user input
 > - define functions that acccept parameters and return values
