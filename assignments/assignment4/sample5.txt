@@ -1,0 +1,1 @@
+this is some text. Followed by some other text. and it makes one paragraph. Because there is an ENTER.

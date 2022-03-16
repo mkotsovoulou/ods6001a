@@ -1,0 +1,3 @@
+this is some text. Followed by some other text. 
+And it has more than one paragraph. Because there is are ENTERs or else newline characters.
+But a new paragraph is here. Since there is more text this makes this file a document.
