@@ -1,5 +1,13 @@
 # Python Lab 3.1: String manipulation - Functions - Loops
 
+> The purpose of this practice is to help your understanding of the concepts discussed up to this **week 3**: 
+>
+> - obtain user input
+> - define functions that acccept parameters and return values
+> - call functions
+> - perform string manipulation / iteration
+> - use conditional expressions
+
 In `lab3_1.py` in the text editor at top-right, write a program which will:
 
 1. Define the avg_digits() function:
@@ -11,6 +19,7 @@ In `lab3_1.py` in the text editor at top-right, write a program which will:
             - increment the countdigits variable to keep track of how many digits exist
 
 2. The main program should:
+    - Read a sentence or a string from the user
     - Call the avg_digits() function by passing `str1` as an argument. Assign the value returned from the function to an `average` variable.
     - Display the `average` using only 2 decimal points.
 
