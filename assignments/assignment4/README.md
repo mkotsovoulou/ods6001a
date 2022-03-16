@@ -1,10 +1,9 @@
-# Programming Problem 3: Functions 
+# Programming Problem 4: File Manipulation and String Functions 
 
-> The purpose of this assignment is to test your understanding and application of the concepts discussed in **week 2**:
+> The purpose of this assignment is to test your understanding and application of the concepts discussed up to **week 3**:
 >
-> - define functions that accept parameters and return values
-> - call functions with arguments
-> - perform user input validation and exception handling
+> - read data from files
+> - parse and extract information from strings
 
 ## Specifications
 

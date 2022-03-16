@@ -1,5 +1,5 @@
-# Function areaTriangle definition
-# correct the function to accept parameters
+# Function document_type definition
+
 def document_type(string):
     return "nothing yet"
 
