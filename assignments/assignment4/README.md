@@ -16,6 +16,9 @@ Create a program which will read a text file containing some text and determine 
 - if the document contains multiple sentences (more than one period) its a paragraph.
 - Every paragraphs ends with a new line character ("\n") if the text contains more than one new line character is a document.
 
+- ask the user to provide the filename
+- display 'File not found' if the user types an invalid filename
+
 Remember to strip all spaces before and after your string before proceeding.
 You can replace all instances of two spaces with one space. 
 
@@ -55,8 +58,15 @@ In this program write your code to accept user input in def main():
 
 ```
 python assignment4.py
+
 ```
 
+sample1.txt should return empty
+sample2.txt should return character
+sample3.txt should return words
+sample4.txt should return sentence
+sample5.txt should return paragraph
+sample6.txt should return document
 
 
 {% next %}
