@@ -1,0 +1,396 @@
+{
+  "moderated_images": [
+    {
+      "day_since_epoch": 18564,
+      "hour_of_day": 15,
+      "id": "00000000-0000-0000-0000-000000000000",
+      "is_moderated": true,
+      "model_id": "category1",
+      "predicted_boxes": [
+        {
+          "label": "invoice_id",
+          "ocr_text": "877541",
+          "xmax": 451,
+          "xmin": 389,
+          "ymax": 500,
+          "ymin": 400
+        }
+      ],
+      "url": "uploadedfiles/00000000-0000-0000-0000-000000000000/PredictionImages/0000000001.jpeg"
+    }
+  ],
+  "moderated_images_count": 55,
+  "unmoderated_images": [
+    {
+      "day_since_epoch": 18565,
+      "hour_of_day": 23,
+      "id": "00000000-0000-0000-0000-000000000000",
+      "is_moderated": false,
+      "model_id": "00000000-0000-0000-0000-000000000000",
+      "predicted_boxes": [
+        {
+          "label": "seller_name",
+          "ocr_text": "Microsoft",
+          "xmax": 732,
+          "xmin": 616,
+          "ymax": 387,
+          "ymin": 390
+        }
+      ],
+      "url": "uploadedfiles/00000000-0000-0000-0000-000000000000/PredictionImages/0000000002.jpeg"
+    }
+  ],
+  "unmoderated_images_count": 156
+}
+{
+  "moderated_images": [
+    {
+      "day_since_epoch": 18564,
+      "hour_of_day": 15,
+      "id": "00000000-0000-0000-0000-000000000000",
+      "is_moderated": true,
+      "model_id": "category1",
+      "predicted_boxes": [
+        {
+          "label": "invoice_id",
+          "ocr_text": "877541",
+          "xmax": 984,
+          "xmin": 616,
+          "ymax": 357,
+          "ymin": 321
+        }
+      ],
+      "url": "uploadedfiles/00000000-0000-0000-0000-000000000000/PredictionImages/0000000001.jpeg"
+    }
+  ],
+  "moderated_images_count": 55,
+  "unmoderated_images": [
+    {
+      "day_since_epoch": 18565,
+      "hour_of_day": 23,
+      "id": "00000000-0000-0000-0000-000000000000",
+      "is_moderated": false,
+      "model_id": "00000000-0000-0000-0000-000000000000",
+      "predicted_boxes": [
+        {
+          "label": "seller_name",
+          "ocr_text": "xyz",
+          "xmax": 399,
+          "xmin": 122,
+          "ymax": 66,
+          "ymin": 20
+        }
+      ],
+      "url": "uploadedfiles/00000000-0000-0000-0000-000000000000/PredictionImages/0000000002.jpeg"
+    }
+  ],
+  "unmoderated_images_count": 156
+}
+{
+  "moderated_images": [
+    {
+      "day_since_epoch": 18564,
+      "hour_of_day": 15,
+      "id": "00000000-0000-0000-0000-000000000000",
+      "is_moderated": true,
+      "model_id": "category1",
+      "predicted_boxes": [
+        {
+          "label": "invoice_id",
+          "ocr_text": "877541",
+          "xmax": 980,
+          "xmin": 642,
+          "ymax": 357,
+          "ymin": 321
+        }
+      ],
+      "url": "uploadedfiles/00000000-0000-0000-0000-000000000000/PredictionImages/0000000001.jpeg"
+    }
+  ],
+  "moderated_images_count": 55,
+  "unmoderated_images": [
+    {
+      "day_since_epoch": 18565,
+      "hour_of_day": 23,
+      "id": "00000000-0000-0000-0000-000000000000",
+      "is_moderated": false,
+      "model_id": "00000000-0000-0000-0000-000000000000",
+      "predicted_boxes": [
+        {
+          "label": "seller_name",
+          "ocr_text": "Apple",
+          "xmax": 950,
+          "xmin": 600,
+          "ymax": 257,
+          "ymin": 121
+        }
+      ],
+      "url": "uploadedfiles/00000000-0000-0000-0000-000000000000/PredictionImages/0000000002.jpeg"
+    }
+  ],
+  "unmoderated_images_count": 156
+}
+{
+  "moderated_images": [
+    {
+      "day_since_epoch": 18564,
+      "hour_of_day": 15,
+      "id": "00000000-0000-0000-0000-000000000000",
+      "is_moderated": true,
+      "model_id": "category1",
+      "predicted_boxes": [
+        {
+          "label": "invoice_id",
+          "ocr_text": "877541",
+          "xmax": 102,
+          "xmin": 057,
+          "ymax": 190,
+          "ymin": 080
+        }
+      ],
+      "url": "uploadedfiles/00000000-0000-0000-0000-000000000000/PredictionImages/0000000001.jpeg"
+    }
+  ],
+  "moderated_images_count": 55,
+  "unmoderated_images": [
+    {
+      "day_since_epoch": 18565,
+      "hour_of_day": 23,
+      "id": "00000000-0000-0000-0000-000000000000",
+      "is_moderated": false,
+      "model_id": "00000000-0000-0000-0000-000000000000",
+      "predicted_boxes": [
+        {
+          "label": "seller_name",
+          "ocr_text": "Apple",
+          "xmax": 654,
+          "xmin": 234,
+          "ymax": 188,
+          "ymin": 150
+        }
+      ],
+      "url": "uploadedfiles/00000000-0000-0000-0000-000000000000/PredictionImages/0000000002.jpeg"
+    }
+  ],
+  "unmoderated_images_count": 156
+}
+{
+  "moderated_images": [
+    {
+      "day_since_epoch": 18564,
+      "hour_of_day": 15,
+      "id": "00000000-0000-0000-0000-000000000000",
+      "is_moderated": true,
+      "model_id": "category1",
+      "predicted_boxes": [
+        {
+          "label": "invoice_id",
+          "ocr_text": "877541",
+          "xmax": 904,
+          "xmin": 606,
+          "ymax": 307,
+          "ymin": 300
+        }
+      ],
+      "url": "uploadedfiles/00000000-0000-0000-0000-000000000000/PredictionImages/0000000001.jpeg"
+    }
+  ],
+  "moderated_images_count": 55,
+  "unmoderated_images": [
+    {
+      "day_since_epoch": 18565,
+      "hour_of_day": 23,
+      "id": "00000000-0000-0000-0000-000000000000",
+      "is_moderated": false,
+      "model_id": "00000000-0000-0000-0000-000000000000",
+      "predicted_boxes": [
+        {
+          "label": "seller_name",
+          "ocr_text": "Apple",
+          "xmax": 345,
+          "xmin": 123,
+          "ymax": 432,
+          "ymin": 244
+        }
+      ],
+      "url": "uploadedfiles/00000000-0000-0000-0000-000000000000/PredictionImages/0000000002.jpeg"
+    }
+  ],
+  "unmoderated_images_count": 156
+}
+{
+  "moderated_images": [
+    {
+      "day_since_epoch": 18564,
+      "hour_of_day": 15,
+      "id": "00000000-0000-0000-0000-000000000000",
+      "is_moderated": true,
+      "model_id": "category1",
+      "predicted_boxes": [
+        {
+          "label": "invoice_id",
+          "ocr_text": "877541",
+          "xmax": 1984,
+          "xmin": 1616,
+          "ymax": 357,
+          "ymin": 321
+        }
+      ],
+      "url": "uploadedfiles/00000000-0000-0000-0000-000000000000/PredictionImages/0000000001.jpeg"
+    }
+  ],
+  "moderated_images_count": 55,
+  "unmoderated_images": [
+    {
+      "day_since_epoch": 18565,
+      "hour_of_day": 23,
+      "id": "00000000-0000-0000-0000-000000000000",
+      "is_moderated": false,
+      "model_id": "00000000-0000-0000-0000-000000000000",
+      "predicted_boxes": [
+        {
+          "label": "seller_name",
+          "ocr_text": "Apple",
+          "xmax": 884,
+          "xmin": 516,
+          "ymax": 257,
+          "ymin": 230
+        }
+      ],
+      "url": "uploadedfiles/00000000-0000-0000-0000-000000000000/PredictionImages/0000000002.jpeg"
+    }
+  ],
+  "unmoderated_images_count": 156
+}
+{
+  "moderated_images": [
+    {
+      "day_since_epoch": 18564,
+      "hour_of_day": 15,
+      "id": "00000000-0000-0000-0000-000000000000",
+      "is_moderated": true,
+      "model_id": "category1",
+      "predicted_boxes": [
+        {
+          "label": "invoice_id",
+          "ocr_text": "877541",
+          "xmax": 784,
+          "xmin": 616,
+          "ymax": 357,
+          "ymin": 321
+        }
+      ],
+      "url": "uploadedfiles/00000000-0000-0000-0000-000000000000/PredictionImages/0000000001.jpeg"
+    }
+  ],
+  "moderated_images_count": 55,
+  "unmoderated_images": [
+    {
+      "day_since_epoch": 18565,
+      "hour_of_day": 23,
+      "id": "00000000-0000-0000-0000-000000000000",
+      "is_moderated": false,
+      "model_id": "00000000-0000-0000-0000-000000000000",
+      "predicted_boxes": [
+        {
+          "label": "seller_name",
+          "ocr_text": "Apple",
+          "xmax": 712,
+          "xmin": 567,
+          "ymax": 357,
+          "ymin": 321
+        }
+      ],
+      "url": "uploadedfiles/00000000-0000-0000-0000-000000000000/PredictionImages/0000000002.jpeg"
+    }
+  ],
+  "unmoderated_images_count": 156
+}
+{
+  "moderated_images": [
+    {
+      "day_since_epoch": 18564,
+      "hour_of_day": 15,
+      "id": "00000000-0000-0000-0000-000000000000",
+      "is_moderated": true,
+      "model_id": "category1",
+      "predicted_boxes": [
+        {
+          "label": "invoice_id",
+          "ocr_text": "877541",
+          "xmax": 932,
+          "xmin": 334,
+          "ymax": 257,
+          "ymin": 122
+        }
+      ],
+      "url": "uploadedfiles/00000000-0000-0000-0000-000000000000/PredictionImages/0000000001.jpeg"
+    }
+  ],
+  "moderated_images_count": 55,
+  "unmoderated_images": [
+    {
+      "day_since_epoch": 18565,
+      "hour_of_day": 23,
+      "id": "00000000-0000-0000-0000-000000000000",
+      "is_moderated": false,
+      "model_id": "00000000-0000-0000-0000-000000000000",
+      "predicted_boxes": [
+        {
+          "label": "seller_name",
+          "ocr_text": "Apple",
+          "xmax": 924,
+          "xmin": 699,
+          "ymax": 307,
+          "ymin": 301
+        }
+      ],
+      "url": "uploadedfiles/00000000-0000-0000-0000-000000000000/PredictionImages/0000000002.jpeg"
+    }
+  ],
+  "unmoderated_images_count": 156
+}
+{
+  "moderated_images": [
+    {
+      "day_since_epoch": 18564,
+      "hour_of_day": 15,
+      "id": "00000000-0000-0000-0000-000000000000",
+      "is_moderated": true,
+      "model_id": "category1",
+      "predicted_boxes": [
+        {
+          "label": "invoice_id",
+          "ocr_text": "877541",
+          "xmax": 584,
+          "xmin": 216,
+          "ymax": 557,
+          "ymin": 421
+        }
+      ],
+      "url": "uploadedfiles/00000000-0000-0000-0000-000000000000/PredictionImages/0000000001.jpeg"
+    }
+  ],
+  "moderated_images_count": 55,
+  "unmoderated_images": [
+    {
+      "day_since_epoch": 18565,
+      "hour_of_day": 23,
+      "id": "00000000-0000-0000-0000-000000000000",
+      "is_moderated": false,
+      "model_id": "00000000-0000-0000-0000-000000000000",
+      "predicted_boxes": [
+        {
+          "label": "seller_name",
+          "ocr_text": "Apple",
+          "xmax": 182,
+          "xmin": 045,
+          "ymax": 557,
+          "ymin": 421
+        }
+      ],
+      "url": "uploadedfiles/00000000-0000-0000-0000-000000000000/PredictionImages/0000000002.jpeg"
+    }
+  ],
+  "unmoderated_images_count": 156
+}

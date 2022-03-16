@@ -4,7 +4,7 @@
 >
 > - obtain user input
 > - perform calculations and 
-> - producing valid output
+> - produce valid output
 
 ## Specifications
 

@@ -3,7 +3,7 @@
 > The purpose of this practice is to help you apply the concepts discussed up to **week 3**: 
 >
 > - obtain user input
-> - define functions that acccept parameters and return values
+> - define functions that accept parameters and return values
 > - call functions
 > - perform string manipulation / iteration
 > - use conditional expressions
