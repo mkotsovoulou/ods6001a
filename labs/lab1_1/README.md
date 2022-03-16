@@ -1,6 +1,6 @@
 # Python Lab 1.1: Variables and Types
 
-Recall that Python supports multiple "data types" among them strings, floats and integers. Is important to note that the data type of a variable matters!
+Recall that Python supports multiple "data types" among them strings, floats and integers. It is important to note that the data type of a variable matters!
 
 Consider the program in `lab1_1.py` in the text editor at top-right. At first glance, it looks like it
 

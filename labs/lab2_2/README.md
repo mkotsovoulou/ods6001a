@@ -1,5 +1,14 @@
 # Python Lab 2.2: Functions - Repetition - Validation
 
+> The purpose of this practice is to help you apply the concepts discussed up to **week 2**: 
+>
+> - obtain user input
+> - define functions that acccept parameters and return values
+> - call functions
+> - repeat code
+> - validate user input
+> - handle exceptions
+
 In `lab2_2.py` in the text editor at top-right, write a program which will:
 
 1. Define an add() function:
@@ -12,7 +21,7 @@ In `lab2_2.py` in the text editor at top-right, write a program which will:
         - increment the count variable to keep track of how many times the loop executes (if you use a while loop)
 
 2. The main program should:
-    - Ask the user how many numbers they want to add and assign user input to a variable called "numbers"
+    - Ask the user how many numbers they want to add and assign user input to a variable called `numbers`
     - Validate that the user types an integer number - if not, display `Wrong input` and quit
     - Call the add function by passing `numbers` as an argument. Assign the value returned from the function to the sum variable
     - Display the `sum`
