@@ -79,7 +79,7 @@ Use print(f" ") to format your output
 {% spoiler "Hint 3 : how to print only two decimals " %}
 
 ```
- print(f"{average:.2}")
+ print(f"{average:.2f}")
 
 ```
 
