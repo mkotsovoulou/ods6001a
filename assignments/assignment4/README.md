@@ -62,11 +62,17 @@ python assignment4.py
 ```
 
 sample1.txt should return empty
+
 sample2.txt should return character
+
 sample3.txt should return words
+
 sample4.txt should return sentence
+
 sample5.txt should return paragraph
+
 sample6.txt should return document
+
 
 
 {% next %}
