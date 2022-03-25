@@ -4,8 +4,9 @@
 >
 > - open a file
 > - read the contents of the file
-> - search inside strings for data
-> - parse data
+> - split strings
+> - add data to list
+> - search in a list
 
 In `lab4_1.py` in the text editor at top-right, write a program which will:
 
@@ -64,7 +65,7 @@ check50 mkotsovoulou/ods6001a/main/labs/lab4_1
 Execute the below to evaluate the style of your code using `style50`.
 
 ```
-style50 lab3_2.py
+style50 lab4_1.py
 ```
 
 {% next %}
