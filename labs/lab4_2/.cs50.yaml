@@ -1,0 +1,21 @@
+lab50:
+  window:   
+    - editor
+    - readme
+    - terminal
+
+  files: 
+    - !exclude "*"
+    - !exclude "__init__.py"
+    - !include lab4_2.py
+    - !include mbox-short.txt 
+
+check50: 
+  files: &check50_files
+    - !exclude "*"
+    - !require lab4_2.py
+    - !require mbox-short.txt 
+
+submit50: 
+  files: *check50_files
+  style: true
