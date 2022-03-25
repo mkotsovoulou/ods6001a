@@ -7,13 +7,13 @@ lab50:
   files: 
     - !exclude "*"
     - !exclude "__init__.py"
-    - !include lab3_2.py
+    - !include lab4_1.py
     - !include datafile.txt
 
 check50: 
   files: &check50_files
     - !exclude "*"
-    - !require lab3_2.py
+    - !require lab4_1.py
     - !require datafile.txt
 
 submit50: 
