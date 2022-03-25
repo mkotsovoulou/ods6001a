@@ -1,0 +1,21 @@
+lab50:
+  window:   
+    - editor
+    - readme
+    - terminal
+
+  files: 
+    - !exclude "*"
+    - !exclude "__init__.py"
+    - !include lab3_2.py
+    - !include datafile.txt
+
+check50: 
+  files: &check50_files
+    - !exclude "*"
+    - !require lab3_2.py
+    - !require datafile.txt
+
+submit50: 
+  files: *check50_files
+  style: true
