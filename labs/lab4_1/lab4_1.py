@@ -1,5 +1,5 @@
 # Open the file to read it
 fh = open("datafile.txt")
-lst = list()
+words = list()
 for line in fh:
     print(line.rstrip())
