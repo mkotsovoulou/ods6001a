@@ -1,12 +1,9 @@
-# Python Lab 4.1: Reading a File and use a list to find words
+# Python Lab 4.2: Use Dictionaries
 
 > The purpose of this practice is to help you apply the concepts discussed up to **now**: 
 >
-> - open a file
-> - read the contents of the file
-> - split strings
-> - add data to list
-> - search in a list
+> - add keys and values to dictionaries
+> - increment values based on keys
 
 In `lab4_2.py` in the text editor at top-right, write a program which will:
 
