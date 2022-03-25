@@ -11,4 +11,4 @@ def main_test(exists):
     """Does the program read the file and count the unique words ?"""
     output = check50.run("python3 lab4_1.py").stdout()
     if output != ['Arise', 'But', 'It', 'Juliet', 'Who', 'already', 'and', 'breaks', 'east', 'envious', 'fair', 'grief', 'is', 'kill', 'light', 'moon', 'pale', 'sick', 'soft', 'sun', 'the', 'through', 'what', 'window', 'with', 'yonder']:
-        raise check50.Failure("Correct output not detected")
+        raise check50.Failure(output + " found  Correct output not detected")
