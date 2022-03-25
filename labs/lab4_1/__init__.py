@@ -8,8 +8,8 @@ def exists():  # the name of the check
 # only run this check if the exists check has passed
 @check50.check(exists)
 def main_test(exists):
-    """Does the program read the file and find the words ?"""
-    check50.run("python3 lab4_1.py").stdout("['Arise', 'But', 'It']\n").exit(0)
+    """Does the program read the file and count the unique words ?"""
+    check50.run("python3 lab4_1.py").stdout("26\n").exit(0)
 
 
 
