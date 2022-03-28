@@ -8,13 +8,13 @@ lab50:
     - !exclude "*"
     - !exclude "__init__.py"
     - !include lab4_2.py
-    - !include mbox-short.txt 
+    - !include 2021-07-08_clean-hashtags.tsv 
 
 check50: 
   files: &check50_files
     - !exclude "*"
     - !require lab4_2.py
-    - !require mbox-short.txt 
+    - !require 2021-07-08_clean-hashtags.tsv
 
 submit50: 
   files: *check50_files
