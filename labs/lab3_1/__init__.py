@@ -31,7 +31,6 @@ def main_test(exists):
     if actual == '6.333333333333333':
         help = r"Almost! Did you forget to format the output using two decimals?"
     if not match(expected, actual):
-        help = None
         raise check50.Mismatch("6.33\n", actual, help=help)
 
 
