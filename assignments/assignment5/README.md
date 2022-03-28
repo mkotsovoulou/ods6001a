@@ -28,7 +28,7 @@ AAPL,3/7/2022,$159.30,-30
 ```
 
 When the data are loaded and processed produce:
-1. The total amount of profit/loss from all stocks (display it in the screen)
+1. The total amount of profit/loss from all stocks rounded in the nearest integer (display it in the screen)
 2. Write to a file called `results.txt` the contents of the dictionary. Display the Stock Symbol and the amount of profit or loss. You may need to think about the sign...
 
 
