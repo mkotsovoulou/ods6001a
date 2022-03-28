@@ -20,7 +20,7 @@ def main_test(exists):
         help = None
         raise check50.Mismatch("17214\n", actual, help=help)
 
-    if actual == '-17214':
+    if actual == '-17214\n':
         help = r"Getting Close... Are you sure the sign is correct ?"
     if not match(expected, actual):
         help = None
