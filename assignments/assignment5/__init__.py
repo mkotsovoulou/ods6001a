@@ -5,12 +5,6 @@ def exists():  # the name of the check
     """Is your file saved as assignment5.py"""  # this is what you will see when running check50
     check50.exists("assignment5.py")  # the actual check
 
-
-@check50.check(exists)
-def existsresults():  # the name of the check
-    """Does your program produce a results.txt file?"""  # this is what you will see when running check50
-    check50.exists("results.txt")  # the actual check
-
 @check50.check(exists)
 def main_test(exists):
     """Does the program display profit correctly ?"""
@@ -31,3 +25,9 @@ def main_test(exists):
     if not match(expected, actual):
         help=None
         raise check50.Mismatch("17214\n", actual, help=help)
+
+
+@check50.check(main_test)
+def results():  # the name of the check
+    """Does your program produce a results.txt file?"""  # this is what you will see when running check50
+    check50.exists("results.txt")  # the actual check

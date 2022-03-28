@@ -56,6 +56,16 @@ python assignment5.py
 ```
 
 
+A sample `results.txt` should contain the following info:
+```
+AAPL	-2544.1000000000026
+FB	    -515.1999999999971
+SBUX	-5657.519999999997
+TSLA	26133.749999999985
+MSFT	-202.99999999999818
+```
+
+
 ## Check Your Code
 
 Execute the below to evaluate the correctness of your code using `check50`, but be sure to test it yourself before that...

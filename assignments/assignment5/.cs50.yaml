@@ -16,6 +16,7 @@ check50:
     - !exclude "*"
     - !require assignment5.py
     - !require StockHistoricalData.csv
+    - !require results.txt
 
 submit50: 
   files: *check50_files
