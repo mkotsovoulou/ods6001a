@@ -10,7 +10,6 @@ lab50:
     - !include assignment5.py
     - !include StockHistoricalData.csv
 
-    
 check50: 
   files: &check50_files
     - !exclude "*"
