@@ -62,13 +62,20 @@ for line in fhand:
 
 {% spoiler "Use a maximum type of loop " %}
 ```
+# initialize the most mentioned tag to None
 max_tag = None
+# initialize the most mentions to Zero
 max_mentions = 0
+# loop through every tag in the dictionary
 for tag in virustags:
+    # if the value (mentions) in the currect tag is greater that what was the previous max_mentions
     if virustags[tag] > max_mentions:
+        # keep this tag name to the max_tag variable
         max_tag = tag
+        # set the max_mentions to this number
         max_mentions = virustags[tag]
 
+# When the loop exits print the tag that you found!
 print(max_tag, max_mentions)
 
 ```
