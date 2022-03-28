@@ -13,7 +13,11 @@ Create a program which will read a text file containing Stock Market purchase in
 
 The structure of the file is as follows: Symbol,Date,ClosingPrice,Volume
 
-When the Volume field is a positive number it represents the number of stocks the company bought at Closing Price, and when is negative it represents the number of stocks the company sold, again at the closing price.
+* The Volume is an integer. When the Volume contains a positive number it represents the number of stocks the company bought at Closing Price, and when is negative it represents the number of stocks the company sold, again at the closing price.
+
+* You have to remove the dollar sign '$' from the price (which is a float). 
+
+* Ignore the dates.
 
 Some sample data from the file:
 
@@ -25,7 +29,7 @@ AAPL,3/7/2022,$159.30,-30
 
 When the data are loaded and processed produce:
 1. The total amount of profit/loss from all stocks (display it in the screen)
-2. Write to a file called `results.txt` the contents of the dictionary.
+2. Write to a file called `results.txt` the contents of the dictionary. Display the Stock Symbol and the amount of profit or loss. You may need to think about the sign...
 
 
 ### Hint 1 : 
@@ -36,26 +40,11 @@ If for example the company bought 30 stocks of AAPP in the price of 165.12, the 
 ### Hint 2 :
 While reading data from the file, first load data in your data structure, either by adding a stock symbol which does not exist or updating the amount, to keep track of the total profit/loss.
 
-
 You are free to create your own functions for code modularity. Use comments to describe your algorithm to process the data.
 
 
-## Some Technical Details: A Basic Python main()
-
-In some Python scripts, you may see a function definition and a conditional statement that looks like the example below:
-```
-def main():
-    print("Hello World!")
-
-if __name__ == "__main__":
-    main()
-```
-In this code, there is a function called main() that prints the phrase Hello World! when the Python interpreter executes it. There is also a conditional (or if) statement that checks the value of __name__ and compares it to the string "__main__". When the if statement evaluates to True, the Python interpreter executes main().
-
-In this program write your code to def main(). You are free to create your own functions for code modularity.
-
-
 {% next %}
+
 
 ## Execute and Test your program 
 
@@ -66,8 +55,6 @@ python assignment5.py
 
 ```
 
-
-{% next %}
 
 ## Check Your Code
 

@@ -1,11 +1,5 @@
-# this is the Main program function
-def main():
-    # Open StockHistoricalData.csv to read it
-    
-    
+# Open StockHistoricalData.csv to read it
+fhand = open('StockHistoricalData.csv', 'r')
+stocks = {}
 
 
-
-# DO NOT MODIFY THIS CODE
-if __name__ == '__main__':
-    main()
