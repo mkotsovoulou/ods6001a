@@ -7,9 +7,9 @@
 
 In `lab4_2.py` in the text editor at top-right, write a program which will:
 
-Write a program to read through the `2021-07-08_clean-hashtags.tsv` and figure out the tag containing the string coronavirus with the most mentions. 
+Write a program to read through the `2021-07-08_clean-hashtags.tsv` and figure out the tag containing keywords around the coronavirus such as 'virus','coronavirus', 'vaccine', 'covid' with the most mentions. 
 
-- The program looks for lines containing the #tag that includes the word 'virus' or 'corona' or 'vaccine' and takes the second word of those lines as total mentions.
+- The program looks for lines containing the #tag that includes the word 'virus' or 'coronavirus' or 'vaccine' or 'covid' and takes the second word of those lines as total mentions.
 
 - The program creates a Python dictionary that maps each tag we are interested at with the number of its mentions. 
 
@@ -20,7 +20,7 @@ Write a program to read through the `2021-07-08_clean-hashtags.tsv` and figure o
 
 Your output should look like the following:
 ```
-#covid19vaccine 6460
+#covid19 34468
 
 ```
 
@@ -32,7 +32,7 @@ fhand = open('2021-07-08_clean-hashtags.tsv', 'r')
 virustags = {}
 
 for line in fhand:
-    if 'virus' not in line and 'vaccine' not in line and 'corona' not in line:
+    if 'virus' not in line and 'vaccine' not in line and 'coronavirus' not in line and 'covid' not in line:
          continue
     tag = line.split()[0]
     tagmentions = line.split()[1]
@@ -45,7 +45,7 @@ for line in fhand:
 In the solution above we used multiple conditions to check if a line contains either of these words:
 
 ```
-if 'virus' not in line and 'vaccine' not in line and 'corona' not in line:
+if 'virus' not in line and 'vaccine' not in line and 'coronavirus' not in line and 'covid' not in line:
          continue
 ```
 
@@ -53,7 +53,7 @@ Another way to perform this tast is to declare a list with all the words you are
 and in the loop check if any of the words is not found in the line, using the any keyword...
 
 ```
-tags_to_search = ['virus', 'vaccine', 'corona']
+tags_to_search = ['virus', 'vaccine', 'corona', 'covid']
 for line in fhand:
     if not any(tag in line for tag in tags_to_search):
         continue
@@ -83,8 +83,9 @@ python lab4_2.py
 
 Check that your code produces correct results. 
 
-For the sample datafile the outout shoud be:
-#covid19vaccine 6460
+For the sample datafile the output should be:
+
+#covid19 34468
 
 {% next %}
 
