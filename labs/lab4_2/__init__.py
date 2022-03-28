@@ -8,7 +8,7 @@ def exists():  # the name of the check
 # only run this check if the exists check has passed
 @check50.check(exists)
 def main_test(exists):
-    """Does the program read the file and count emails ?"""
+    """Does the program read the file and count tags ?"""
     output = check50.run("python3 lab4_2.py").stdout()
-    if output != "cwen@iupui.edu 5\n":
-        raise check50.Failure("Your code did not produce the expected email and count")
+    if output != "#covid19vaccine 6460\n":
+        raise check50.Failure("Your code did not produce the expected tag and count")
