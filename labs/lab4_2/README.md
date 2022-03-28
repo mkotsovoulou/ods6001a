@@ -1,4 +1,4 @@
-# Python Lab 4.2: Use Dictionaries
+# Python Lab 4.2: Use of Dictionaries
 
 > The purpose of this practice is to help you apply the concepts discussed up to **now**: 
 >

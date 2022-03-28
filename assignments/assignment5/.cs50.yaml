@@ -1,0 +1,22 @@
+lab50:
+  window:   
+    - editor
+    - readme
+    - terminal
+
+  files: 
+    - !exclude "*"
+    - !exclude "__init__.py"
+    - !include assignment5.py
+    - !include StockHistoricalData.csv
+
+    
+check50: 
+  files: &check50_files
+    - !exclude "*"
+    - !require assignment5.py
+    - !require StockHistoricalData.csv
+
+submit50: 
+  files: *check50_files
+  style: true
