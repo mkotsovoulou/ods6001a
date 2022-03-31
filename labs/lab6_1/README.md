@@ -1,11 +1,11 @@
-# Python Lab 4.2: Use of Dictionaries
+# Python Lab 5.1: Object Oriented Programming
 
 > The purpose of this practice is to help you apply the concepts discussed up to **now**: 
 >
-> - add keys and values to dictionaries
-> - increment values based on keys
+> - implement object classes and develop program to use them
+> - test, debug and predict program behaviour
 
-In `lab4_2.py` in the text editor at top-right, write a program which will:
+In `lab6_1.py` in the text editor at top-right, write a program which will:
 
 Write a program to read through the `2021-07-08_clean-hashtags.tsv` and figure out the tag containing keywords around the coronavirus such as 'virus','coronavirus', 'vaccine', 'covid' with the most mentions. 
 
@@ -49,8 +49,8 @@ if 'virus' not in line and 'vaccine' not in line and 'coronavirus' not in line a
          continue
 ```
 
-Another way to perform this task is to declare a list with all the words you are interested in ...
-and in the loop check if none of the words is not found in the line, using the any keyword...
+Another way to perform this tast is to declare a list with all the words you are interested at ...
+and in the loop check if any of the words is not found in the line, using the any keyword...
 
 ```
 tags_to_search = ['virus', 'vaccine', 'corona', 'covid']
@@ -64,10 +64,8 @@ for line in fhand:
 ```
 # initialize the most mentioned tag to None
 max_tag = None
-
 # initialize the most mentions to Zero
 max_mentions = 0
-
 # loop through every tag in the dictionary
 for tag in virustags:
     # if the value (mentions) in the currect tag is greater that what was the previous max_mentions
@@ -87,7 +85,7 @@ print(max_tag, max_mentions)
 
 Remember in order to execute your code you type in the terminal:
 ```
-python lab4_2.py
+python lab6_1.py
 ```
 
 Check that your code produces correct results. 
@@ -104,13 +102,13 @@ Execute the below to evaluate the correctness of your code using `check50`, but 
 
 
 ```
-check50 mkotsovoulou/ods6001a/main/labs/lab4_2
+check50 mkotsovoulou/ods6001a/main/labs/lab6_1
 ```
 
 Execute the below to evaluate the style of your code using `style50`.
 
 ```
-style50 lab4_2.py
+style50 lab6_1.py
 ```
 
 {% next %}
@@ -123,7 +121,7 @@ If you do not have generated a Personal Access ToKen follow the instructions:
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
 ```
-submit50 mkotsovoulou/ods6001a/main/labs/lab4_2
+submit50 mkotsovoulou/ods6001a/main/labs/lab6_1
 ```
 
 You can re-submit your solution as many times as you want.

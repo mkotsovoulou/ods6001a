@@ -1,11 +1,10 @@
-# Python Lab 4.1: Reading a File and use a list to find words
+# Python Lab 4.1: Use Lists
 
 > The purpose of this practice is to help you apply the concepts discussed up to **now**: 
 >
-> - open a file
-> - read the contents of the file
-> - split strings
-> - add data to list
+> - read file contents
+> - manipulate strings
+> - add data to a list
 > - search in a list
 
 In `lab4_1.py` in the text editor at top-right, write a program which will:
@@ -21,7 +20,6 @@ In `lab4_1.py` in the text editor at top-right, write a program which will:
 - When the program completes, sort and print the resulting words in alphabetical order.
 
 {% next %}
-
 
 
 
