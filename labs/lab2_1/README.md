@@ -8,9 +8,17 @@ In `lab2_1.py` in the text editor at top-right, write a few python commands to:
 
 ![Image of ranges](ranges.png)
 
-## Flowchart1 
-This Flowchart represents the logic of this program... Remeber that you can reverse the check and still have a correct program!
+Click next to see the flowchart of this algorithm...
+{% next %}
+## Flowchart v1 
+This Flowchart represents the logic of this program... 
 [![](https://mermaid.ink/img/pako:eNpd0l1vgjAUBuC_0pzdzEQTdrMPZkzkSwiiF3ql5aKBMkmAulK2LMT_vgLaULiBc_r2OSVpCwlLKZiQFew3uRAu0NHBFZLP-vlcC9mIZ2ixWCHrjMGtBOXokDBOMcRDzJKr6Mgb2qfsFkPdraMlMhDjqC9WL4aB4TZssLUNrmSfvhsmPoPqhxR5OvBDSw1x--xpBHikqAfBax8DXw10n-FpMzZqhjdxN2PX011fuW_K9TU3UK4zcYOx6-tuqNx35Yaau1WuPXG3YzfU3Ui5H8qNNHenXGviRjq1V8H1JLgbH2A_Lk7ddWHXeNaXuOpeMIeS8pLkqbxhbdfBIC60lLfHlJ8pzUhTCAy4usloc02JoG6aC8bBzLrTzIE0gh3-qgRMIX_jEXJy8sVJeU_d_gExhcnT)](https://mermaid.live/edit#pako:eNpd0l1vgjAUBuC_0pzdzEQTdrMPZkzkSwiiF3ql5aKBMkmAulK2LMT_vgLaULiBc_r2OSVpCwlLKZiQFew3uRAu0NHBFZLP-vlcC9mIZ2ixWCHrjMGtBOXokDBOMcRDzJKr6Mgb2qfsFkPdraMlMhDjqC9WL4aB4TZssLUNrmSfvhsmPoPqhxR5OvBDSw1x--xpBHikqAfBax8DXw10n-FpMzZqhjdxN2PX011fuW_K9TU3UK4zcYOx6-tuqNx35Yaau1WuPXG3YzfU3Ui5H8qNNHenXGviRjq1V8H1JLgbH2A_Lk7ddWHXeNaXuOpeMIeS8pLkqbxhbdfBIC60lLfHlJ8pzUhTCAy4usloc02JoG6aC8bBzLrTzIE0gh3-qgRMIX_jEXJy8sVJeU_d_gExhcnT)
+
+
+Remeber that you can reverse the checks and still have a valid program!
+So click nect to see a reverse flowchart...
+
+{% next %}
 
 ## Reverse Flowchart
 
