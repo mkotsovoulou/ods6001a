@@ -8,6 +8,9 @@ In `lab2_1.py` in the text editor at top-right, write a few python commands to:
 
 ![Image of ranges](ranges.png)
 
+## Flowchart 
+[![](https://mermaid.ink/img/pako:eNptkMFuwjAMhl_F8i5DghfoBtIgLdzHjfQQNSmtlDaQOBpV1XdfSgdrtOWU__fvz7J7LIxUmGCpzVdRCUtwZLyF8D5eT46CkS9gtdrAtr_BO3TDVNwGD47Wq3ttd-L4cvWG3m5QO9DKOaBKtNBNLsd81pYJ7aY-FpibJ5NFzDRmnq0SpOz_WBZjs4Bdr5_cLOLuY666eqGBzB_m_p4-jEcwl3wxQ_0OOkzubi7ShxglLrFRthG1DCfuR4cjVapRHJPwlaoUXhNH3g4h6i8y7JjKmozFpBzHLFF4Mp9dW2BCYYVHiNXibEXzkxq-AfNhhyM)](https://mermaid.live/edit#pako:eNptkMFuwjAMhl_F8i5DghfoBtIgLdzHjfQQNSmtlDaQOBpV1XdfSgdrtOWU__fvz7J7LIxUmGCpzVdRCUtwZLyF8D5eT46CkS9gtdrAtr_BO3TDVNwGD47Wq3ttd-L4cvWG3m5QO9DKOaBKtNBNLsd81pYJ7aY-FpibJ5NFzDRmnq0SpOz_WBZjs4Bdr5_cLOLuY666eqGBzB_m_p4-jEcwl3wxQ_0OOkzubi7ShxglLrFRthG1DCfuR4cjVapRHJPwlaoUXhNH3g4h6i8y7JjKmozFpBzHLFF4Mp9dW2BCYYVHiNXibEXzkxq-AfNhhyM)
+
 
 {% spoiler "Hint 1 : Validate range " %}
 
