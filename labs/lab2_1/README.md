@@ -25,6 +25,14 @@ So click nect to see a reverse flowchart...
 [![](https://mermaid.ink/img/pako:eNpd0s9vgjAUB_B_pXm7zEQTd9gvXEgEQQiiBz1pOTRQJglQV8qWhfC_r4BrKFzgvX77eSVpAzFLKBiQ5uwnvhIu0GmDSySf9eOlErIRzdBiYSLrgsEpBeXoGDNOMURDzJKr6MRr2qfsBkPVraMPtESMo74wn5ZLDO2wwdY2OJJ9-KqZWPnlN8mzZOCHlhri9NnzCHBJXg2C2wwDTfT2ju4zXG3GVs1YT9zt2HV111Puq3I9zfWVa01cf-x6uhso90W5gebulGtP3N3YDXQ3VO6zckPN3St3M3FDnTqooDsJ7scHOIyLc3dd2C2a9SUuuxfMoaC8IFkib1jTdTCIKy3k7THkZ0JTUucCAy5bGa1vCRHUSTLBOBhpd5o5kFqw428ZgyHkb_yHNhn55KS4p9o_Z9TJ-w)](https://mermaid.live/edit#pako:eNpd0s9vgjAUB_B_pXm7zEQTd9gvXEgEQQiiBz1pOTRQJglQV8qWhfC_r4BrKFzgvX77eSVpAzFLKBiQ5uwnvhIu0GmDSySf9eOlErIRzdBiYSLrgsEpBeXoGDNOMURDzJKr6MRr2qfsBkPVraMPtESMo74wn5ZLDO2wwdY2OJJ9-KqZWPnlN8mzZOCHlhri9NnzCHBJXg2C2wwDTfT2ju4zXG3GVs1YT9zt2HV111Puq3I9zfWVa01cf-x6uhso90W5gebulGtP3N3YDXQ3VO6zckPN3St3M3FDnTqooDsJ7scHOIyLc3dd2C2a9SUuuxfMoaC8IFkib1jTdTCIKy3k7THkZ0JTUucCAy5bGa1vCRHUSTLBOBhpd5o5kFqw428ZgyHkb_yHNhn55KS4p9o_Z9TJ-w)
 
 
+Now, click next to start coding...
+
+{% next %}
+
+First ask the user to type a score
+and validate the range
+
+
 {% spoiler "Hint 1 : Validate range " %}
 
 ```
@@ -33,6 +41,7 @@ if score < 0 or score > 100 :
 ```
 {% endspoiler %}
 
+What is the user types a letter instead of a number? 
 
 {% spoiler "Hint 2 : Invalid Input " %}
 
@@ -50,22 +59,28 @@ except:
 
 {% endspoiler %}
 
+Now complete the if statement...
+
 {% spoiler "Hint 3 : Finding the letter grade " %}
 
 ```
-if score < 60 : 
+if score < 0 or score > 100:
+    print('Invalid score')
+elif score < 60: 
     print('F')
-elif score < 70 :
+elif score < 70:
     print('D')
-elif score < 80 :
+elif score < 80:
     print('C')
-elif score < 90 :
+elif score < 90:
     print('B')
 else:
     print('A')
+
 ```
 
 {% endspoiler %}
+
 
 {% next %}
 
