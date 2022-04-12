@@ -7,14 +7,14 @@ lab50:
   files: 
     - !exclude "*"
     - !exclude "__init__.py"
-    - !include lab6_1.py
-    - !include 2021-07-08_clean-hashtags.tsv 
+    - !include lab5_1.py
+    - !include article1.txt 
 
 check50: 
   files: &check50_files
     - !exclude "*"
-    - !require lab6_1.py
-    - !require 2021-07-08_clean-hashtags.tsv
+    - !require lab5_1.py
+    - !require article1.txt
 
 submit50: 
   files: *check50_files
