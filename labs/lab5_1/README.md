@@ -1,4 +1,4 @@
-# Python Lab 5.1: ython Collections
+# Python Lab 5.1: Python Collections
 
 > The purpose of this practice is to help you apply the concepts discussed up to **now**: 
 >
