@@ -6,7 +6,7 @@ def exists():  # the name of the check
     check50.exists("lab5_1.py")  # the actual check
 
     """Does article1.txt exist?"""  # this is what you will see when running check50
-    check50.exists("article1.py")  # the actual check
+    check50.exists("article1.txt")  # the actual check
 
 # only run this check if the exists check has passed
 @check50.check(exists)
