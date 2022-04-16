@@ -1,4 +1,4 @@
-# Python Lab 5.1: Object Oriented Programming
+# Python Lab 6.1: Object Oriented Programming
 
 > The purpose of this practice is to help you apply the concepts discussed up to **now**: 
 >

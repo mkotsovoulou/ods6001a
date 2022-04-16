@@ -1,46 +1,47 @@
-# Programming Problem 5: Data Structures
+# Programming Problem 6: Web Services and APIs
 
-> The purpose of this assignment is to test your understanding and application of the concepts discussed up to **week 4**:
+> The purpose of this assignment is to test your understanding and application of the concepts discussed up to **week 7**:
 >
-> - read data from files
-> - parse and extract information
-> - load data into dictionaries
-> - perform calculations
+> - Call a web service
+> - Retrieve a JSON Object
+> - Load JSON into a Dictionary
+> - Parse Data 
 
 ## Specifications
+A company has created a webservice to expose its products, their prices and the number of items they have in stock
 
-Create a program which will read a text file containing Stock Market purchase information and then figure out whether the company has lost or earned money. 
+Create a program which will contact the following web services:
+- https://dummyjson.com/products
+- https://dummyjson.com/products/categories 
+and download the json data sets and:
+1. Find the most expensive product in each category and the product name 
+2. The total number of items the company has in stock for the specific category.
 
-The structure of the file is as follows: Symbol,Date,ClosingPrice,Volume
+The API documentation can be found at: https://dummyjson.com/docs/products
 
-* The Volume is an integer. When the Volume contains a positive number it represents the number of stocks the company bought at Closing Price, and when is negative it represents the number of stocks the company sold, again at the closing price.
-
-* You have to remove the dollar sign '$' from the price (which is a float). 
-
-* Ignore the dates.
-
-Some sample data from the file:
-
+Produce an formatted output like the following:
 ```
-AAPL,2/28/2022,$165.12,30
-FB,2/28/2022,$211.03,100
-AAPL,3/7/2022,$159.30,-30
+CATEGORY           MOST EXPENSIVE PRODUCT           PRICE   CAT STOCK
+----------------   -------------------------------  -----   --------- 
+smartphones        Samsung Universe 9                1249         319
+laptops            MacBook Pro                       1749         386
+fragrances         Non-Alcoholic Concentrated P       120         397
+skincare           Freckle Treatment Cream- 15g        70         470
+groceries          Gulab Powder 50 Gram                70         465
+home-decoration    Handcraft Chinese style             60         263
 ```
-
-When the data are loaded and processed produce:
-1. The total amount of profit/loss from all stocks rounded in the nearest integer (display it in the screen)
-2. Write to a file called `results.txt` the contents of the dictionary. Display the Stock Symbol and the amount of profit or loss. You may need to think about the sign...
+Display only those categories where a product exists!
 
 
 ### Hint 1 : 
-Use the appropriate data structure which can utilize the stock symbol as the key: i.e. AAPL, and the running amount amount of profit/loss as a value. Ignore the dates during your load.
+    Loop through the categories and add all the product item stock to a dictionary with key the category.
 
-If for example the company bought 30 stocks of AAPP in the price of 165.12, the amount invested should be 4,953.6 and when the company sold 30 stocks of AAPP at the price of 200.34, the amount received was 6,010.2. So the total investment has a produced profit of 1,056.6. 
 
 ### Hint 2 :
-While reading data from the file, first load data in your data structure, either by adding a stock symbol which does not exist or updating the amount, to keep track of the total profit/loss.
-
-You are free to create your own functions for code modularity. Use comments to describe your algorithm to process the data.
+    In the categories loop 
+    loop throught the products and:
+    - use two variables to find the highest product price and name
+    - add the values to another dictionary with key the category and as a value a list of the required information (product name, price and total category stock)
 
 
 {% next %}
@@ -51,18 +52,8 @@ You are free to create your own functions for code modularity. Use comments to d
 *Remember*: in order to execute your code you type in the terminal:
 
 ```
-python assignment5.py
+python assignment7.py
 
-```
-
-
-A sample `results.txt` should contain the following info:
-```
-AAPL,-2544.1000000000026
-FB,-515.1999999999971
-SBUX,-5657.519999999997
-TSLA,26133.749999999985
-MSFT,-202.99999999999818
 ```
 
 
@@ -75,13 +66,13 @@ If you do not have generated a Personal Access ToKen follow the instructions:
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
 ```
-check50 mkotsovoulou/ods6001a/main/assignments/assignment5
+check50 mkotsovoulou/ods6001a/main/assignments/assignment7
 ```
 
 Execute the below to evaluate the style of your code using `style50`.
 
 ```
-style50 assignment5.py
+style50 assignment7.py
 ```
 
 {% next %}
@@ -95,7 +86,7 @@ submit50 mkotsovoulou/ods6001a/main/assignments/assignment5
 ```
 
 You can re-submit your solution as many times as you want.
-When you are happy with your solution, download the code and `results.txt` produced with the data from the dictionary and upload it to Canvas.
+When you are happy with your solution, download the code and upload it to Canvas.
 
 ![Image of download](download.png)
 
