@@ -1,5 +1,5 @@
-# Open StockHistoricalData.csv to read it
-fhand = open('StockHistoricalData.csv', 'r')
-stocks = {}
+# https://dummyjson.com/products
+# https://dummyjson.com/products/categories
 
 
+s

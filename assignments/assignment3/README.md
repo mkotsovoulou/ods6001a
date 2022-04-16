@@ -1,4 +1,4 @@
-# Programming Problem 2_2 : Functions 
+# Programming Problem 3: Functions 
 
 > The purpose of this assignment is to test your understanding and application of the concepts discussed in **Week 2**:
 >

@@ -7,13 +7,13 @@ lab50:
   files: 
     - !exclude "*"
     - !exclude "__init__.py"
-    - !include lab6_1.py
+    - !include lab7_1.py
     - !include 2021-07-08_clean-hashtags.tsv 
 
 check50: 
   files: &check50_files
     - !exclude "*"
-    - !require lab6_1.py
+    - !require lab7_1.py
     - !require 2021-07-08_clean-hashtags.tsv
 
 submit50: 

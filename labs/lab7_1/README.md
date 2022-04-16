@@ -1,4 +1,6 @@
+
 # Python Lab 7.1: Read Data from CSV Files and a Produce a Data Frame
+### For this Lab use your code.cs50.io environment
 
 > The purpose of this practice is to help you apply the concepts discussed up to **now**: 
 >
@@ -7,9 +9,9 @@
 > - perform basic data frame manipulation
 
 In `lab7_1.py` in the text editor at top-right, 
+
+
 {% next %}
-
-
 
 
 ## Execute your program 
