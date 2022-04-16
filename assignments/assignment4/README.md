@@ -1,6 +1,6 @@
 # Programming Problem 4: File Manipulation and String Functions 
 
-> The purpose of this assignment is to test your understanding and application of the concepts discussed up to **week 3**:
+> The purpose of this assignment is to test your understanding and application of the concepts discussed up to **Week 3**:
 >
 > - read data from files
 > - parse and extract information from strings

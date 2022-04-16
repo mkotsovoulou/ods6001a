@@ -1,6 +1,6 @@
-# Programming Problem 5: Data Structures
+# Programming Problem 5: Data Structures - Part A
 
-> The purpose of this assignment is to test your understanding and application of the concepts discussed up to **week 4**:
+> The purpose of this assignment is to test your understanding and application of the concepts discussed up to **Week 4**:
 >
 > - read data from files
 > - parse and extract information

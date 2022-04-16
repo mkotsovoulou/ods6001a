@@ -1,4 +1,4 @@
-# Programming Problem 6: Data Structures -SETS
+# Programming Problem 6: Data Structures
 
 > The purpose of this assignment is to test your understanding and application of the concepts discussed up to **week 5**:
 >

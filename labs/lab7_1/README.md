@@ -1,4 +1,5 @@
-# Python Lab 7.1: Read Data from CSV Files and a Produce a data frame
+# Python Lab 7.1: Read Data from CSV Files and a Produce a Data Frame
+
 > The purpose of this practice is to help you apply the concepts discussed up to **now**: 
 >
 > - Read and parse data from different file types

@@ -1,6 +1,6 @@
-# Programming Problem 3: Functions 
+# Programming Problem 2_2 : Functions 
 
-> The purpose of this assignment is to test your understanding and application of the concepts discussed in **week 2**:
+> The purpose of this assignment is to test your understanding and application of the concepts discussed in **Week 2**:
 >
 > - define functions that accept parameters and return values
 > - call functions with arguments

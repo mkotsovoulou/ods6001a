@@ -1,6 +1,6 @@
-# Programming Problem 6: Web Services and APIs
+# Programming Problem 7: Web Services and APIs 
 
-> The purpose of this assignment is to test your understanding and application of the concepts discussed up to **week 7**:
+> The purpose of this assignment is to test your understanding and application of the concepts discussed up to **week 6**:
 >
 > - Call a web service
 > - Retrieve a JSON Object
@@ -38,7 +38,9 @@ Display only those categories where a product exists!
 
 {% spoiler "Hint 1 : Nested Loops" %}
 Loop through the categories and in this Loop, iterate over the products.
+
     - If the product category is equal to the current category from the outer loop
+
         - add the stock to a categoryStock dictionary.
 
         - check the product price to see if it larger to the previous "larger" price.
