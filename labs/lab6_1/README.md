@@ -1,27 +1,11 @@
-# Python Lab 6.1: Object Oriented Programming
-
+# Python Lab 7.1: Read Data from CSV Files and a Produce a data frame
 > The purpose of this practice is to help you apply the concepts discussed up to **now**: 
 >
-> - implement object classes and develop program to use them
-> - test, debug and predict program behaviour
+> - Read and parse data from different file types
+> - use Pandas to create a DataFrame
+> - perform basic data frame manipulation
 
-In `lab6_1.py` in the text editor at top-right, The exercise template contains a pre-defined ShoppingList class, which can be used to model a shopping list. Your task is to add a method to the class definition. You do not need to change any methods already defined.
-
-Assuming we have a ShoppingList object referenced in a variable named shopping_list, the object can be handled with the following methods:
-
-Please write a function named total_units(my_list: ShoppingList), which takes a ShoppingList type object as its argument. The function should calculate the total number of units listed, and return the value.
-
-You can use the following code to test your function:
-```
-if __name__ == "__main__":
-    my_list = ShoppingList()
-    my_list.add_item("bananas", 10)
-    my_list.add_item("apples", 5)
-    my_list.add_item("pineapple", 1)
-
-    print(total_units(my_list))
-```
-
+In `lab7_1.py` in the text editor at top-right, 
 {% next %}
 
 
@@ -31,7 +15,7 @@ if __name__ == "__main__":
 
 Remember in order to execute your code you type in the terminal:
 ```
-python lab6_1.py
+python lab7_1.py
 ```
 
 Check that your code produces correct results. 
@@ -46,13 +30,13 @@ Execute the below to evaluate the correctness of your code using `check50`, but 
 
 
 ```
-check50 mkotsovoulou/ods6001a/main/labs/lab6_1
+check50 mkotsovoulou/ods6001a/main/labs/lab7_1
 ```
 
 Execute the below to evaluate the style of your code using `style50`.
 
 ```
-style50 lab6_1.py
+style50 lab7_1.py
 ```
 
 {% next %}
@@ -65,7 +49,7 @@ If you do not have generated a Personal Access ToKen follow the instructions:
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
 ```
-submit50 mkotsovoulou/ods6001a/main/labs/lab6_1
+submit50 mkotsovoulou/ods6001a/main/labs/lab7_1
 ```
 
 You can re-submit your solution as many times as you want.
