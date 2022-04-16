@@ -2,4 +2,3 @@
 # https://dummyjson.com/products/categories
 
 
-s
