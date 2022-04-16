@@ -8,18 +8,19 @@
 > - Parse Data 
 
 ## Specifications
-A company has created a webservice to expose its products, their prices and the number of items they have in stock
+A company has created a webservice to expose its products, their prices and the number of items they have in stock. The API documentation of the webservice, can be found at: https://dummyjson.com/docs/products
 
-Create a program which will contact the following web services:
+Create a program to download the json products and categories data sets from the following web services:
 - https://dummyjson.com/products
 - https://dummyjson.com/products/categories 
-and download the json data sets and:
-1. Find the most expensive product in each category and the product name 
+
+Use the data retrieved to:
+
+1. Find the most expensive product in each category and the product name.
+
 2. The total number of items the company has in stock for the specific category.
 
-The API documentation can be found at: https://dummyjson.com/docs/products
-
-3. Produce an formatted output like the following in a text file called 'stats.txt':
+3. Produce a formatted output, like the following, in a text file called 'stats.txt':
 ```
 CATEGORY           MOST EXPENSIVE PRODUCT           PRICE   CAT STOCK
 ----------------   -------------------------------  -----   --------- 
@@ -36,14 +37,18 @@ Display only those categories where a product exists!
 
 
 ### Hint 1 : 
-    Loop through the categories and add all the product item stock to a dictionary with key the category.
+    Loop through the categories 
+    and then and add all the product item stock to a dictionary with key the category.
 
 
-### Hint 2 :
-    In the categories loop 
-    loop throught the products and:
-    - use two variables to find the highest product price and name
-    - add the values to another dictionary with key the category and as a value a list of the required information (product name, price and total category stock)
+### Hint 1 : Nested Loops
+Loop through the categories and in this Loop,
+    - Loop through the products
+        - if the product category is equal to the current category from the outer loop
+            - add the stock to a categoryStock dictionary
+            - check the product price to see if it larger to the previous "larger" price
+                - if yes, assign this product's price to a largest variable...and the name to another variable
+    - Add the final values to another dictionary with key the category and as a value a list of the required information (product name, price and total category stock)
 
 
 {% next %}
@@ -84,11 +89,11 @@ style50 assignment7.py
 Execute the command below, logging in with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. 
 
 ```
-submit50 mkotsovoulou/ods6001a/main/assignments/assignment5
+submit50 mkotsovoulou/ods6001a/main/assignments/assignment7
 ```
 
 You can re-submit your solution as many times as you want.
-When you are happy with your solution, download the code and upload it to Canvas.
+When you are happy with your solution, download the code and the stats.txt and upload it to Canvas.
 
 ![Image of download](download.png)
 
