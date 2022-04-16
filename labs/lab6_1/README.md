@@ -1,4 +1,4 @@
-# Python Lab 6.1: Reading CSV Files
+# Python Lab 6.1: OOP
 > The purpose of this practice is to help you apply the concepts discussed up to **now**: 
 >
 > - implement object classes and develop program to use them
@@ -24,8 +24,6 @@ if __name__ == "__main__":
 {% next %}
 
 
-
-
 ## Execute your program 
 
 Remember in order to execute your code you type in the terminal:
@@ -34,7 +32,6 @@ python lab6_1.py
 ```
 
 Check that your code produces correct results. 
-
 
 
 {% next %}

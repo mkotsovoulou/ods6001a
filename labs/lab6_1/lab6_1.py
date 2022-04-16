@@ -1,5 +1,5 @@
 # DO NOT CHANGE THE CODE OF THE CLASS
-# ShoppingList. Write yous solution under it!
+# ShoppingList. 
 class ShoppingList:
     def __init__(self):
         self.products = []
@@ -17,9 +17,6 @@ class ShoppingList:
         return self.products[n - 1][1]
 
 
-# -------------------------
-# Write your solution here:
-# -------------------------
 if __name__ == "__main__":
     my_list = ShoppingList()
     my_list.add_item("bananas", 10)
@@ -34,5 +31,6 @@ if __name__ == "__main__":
         amount = my_list.amount(i)
         print(f"{item}: {amount} units")
 
+    # total_units is the function you have to define!
     print(total_units(my_list))
     
