@@ -19,7 +19,7 @@ and download the json data sets and:
 
 The API documentation can be found at: https://dummyjson.com/docs/products
 
-Produce an formatted output like the following:
+Produce an formatted output like the following in a text file called 'stats.txt':
 ```
 CATEGORY           MOST EXPENSIVE PRODUCT           PRICE   CAT STOCK
 ----------------   -------------------------------  -----   --------- 

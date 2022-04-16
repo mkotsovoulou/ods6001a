@@ -6,7 +6,7 @@ def exists():  # the name of the check
     check50.exists("assignment6.py")  # the actual check
 
 @check50.check(exists)
-def main_test(exists):
+def main_test():
     """Does the program display the output correctly ?"""
     from re import match
     expected = "22 8 9\n"
