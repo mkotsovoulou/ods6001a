@@ -36,12 +36,7 @@ Display only those categories where a product exists!
 4. Display the price of the most expensive product of all in the terminal.
 
 
-### Hint 1 : 
-    Loop through the categories 
-    and then and add all the product item stock to a dictionary with key the category.
-
-
-### Hint 1 : Nested Loops
+{% spoiler "Hint 1 : Nested Loops" %}
 Loop through the categories and in this Loop,
     - Loop through the products
         - if the product category is equal to the current category from the outer loop
@@ -49,7 +44,7 @@ Loop through the categories and in this Loop,
             - check the product price to see if it larger to the previous "larger" price
                 - if yes, assign this product's price to a largest variable...and the name to another variable
     - Add the final values to another dictionary with key the category and as a value a list of the required information (product name, price and total category stock)
-
+{% endspoiler %}
 
 {% next %}
 
