@@ -7,14 +7,13 @@ lab50:
   files: 
     - !exclude "*"
     - !exclude "__init__.py"
-    - !include assignment5.py
-    - !include StockHistoricalData.csv
+    - !include assignment7.py
 
 check50: 
   files: &check50_files
     - !exclude "*"
-    - !require assignment5.py
-    - !require StockHistoricalData.csv
+    - !require assignment7.py
+    - !require stats.txt
 
 submit50: 
   files: *check50_files
