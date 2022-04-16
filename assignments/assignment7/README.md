@@ -19,7 +19,7 @@ and download the json data sets and:
 
 The API documentation can be found at: https://dummyjson.com/docs/products
 
-Produce an formatted output like the following in a text file called 'stats.txt':
+3. Produce an formatted output like the following in a text file called 'stats.txt':
 ```
 CATEGORY           MOST EXPENSIVE PRODUCT           PRICE   CAT STOCK
 ----------------   -------------------------------  -----   --------- 
@@ -31,6 +31,8 @@ groceries          Gulab Powder 50 Gram                70         465
 home-decoration    Handcraft Chinese style             60         263
 ```
 Display only those categories where a product exists!
+
+4. Display the price of the most expensive product of all in the terminal.
 
 
 ### Hint 1 : 
