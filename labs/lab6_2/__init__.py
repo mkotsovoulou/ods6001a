@@ -10,5 +10,5 @@ def exists():  # the name of the check
 def main_test(exists):
     """Does the program execute correctly and print the correct output"""
     output = check50.run("python3 lab6_2.py").stdout()
-    if output != "30\n":
-        raise check50.Failure("Your code did not produce the expected total number of items")
+    if output != "850.0\n":
+        raise check50.Failure("Your code did not produce the expected balance of 850.0")
