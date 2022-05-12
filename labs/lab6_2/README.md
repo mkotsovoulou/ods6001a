@@ -70,6 +70,7 @@ BankAccount Owner: Nik, Balance: 1000.0
 
 {% spoiler "HINT 5: Main Program " %}
 
+```
 john_account =  BankAccount("John", 1000.0)
 john_account.deposit(100)
 john_account.withdraw(250)
@@ -96,8 +97,6 @@ Check that your code produces correct results, that is a balance of 850.0
 ```
 850.0
 ```
-
-{% next %}
 
 
 ### Check Your Code
