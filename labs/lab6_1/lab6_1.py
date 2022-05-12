@@ -7,7 +7,7 @@ class ShoppingList:
     def number_of_items(self):
         return len(self.products)
 
-    def add(self, product: str, number: int):
+    def add_item(self, product: str, number: int):
         self.products.append((product, number))
 
     def item(self, n: int):
