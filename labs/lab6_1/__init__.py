@@ -10,5 +10,5 @@ def exists():  # the name of the check
 def main_test(exists):
     """Does the program read the file and count tags ?"""
     output = check50.run("python3 lab6_1.py").stdout()
-    if output != "#covid19vaccine 6460\n":
-        raise check50.Failure("Your code did not produce the expected tag and count")
+    if output != "30\n":
+        raise check50.Failure("Your code did not produce the expected total number of items")
