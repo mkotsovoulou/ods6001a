@@ -1,3 +1,4 @@
+# THE BANK ACCOUNT CLASS
 class BankAccount:
     # The constructor
     def __init__(self, balance: float, owner: str):
@@ -5,6 +6,7 @@ class BankAccount:
         self.owner = owner
 
 
+# MAIN PROGRAM
 peters_account = BankAccount("Nik", 100.0)
 
 print(peters_account.owner)
