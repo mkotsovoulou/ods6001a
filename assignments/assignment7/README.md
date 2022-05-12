@@ -8,7 +8,7 @@
 ## Specifications
 
 
-1. Create an add_interest method which will increase the balance by application of the annual interest class variable 
+1. complete the add_interest method to increase the balance by applying the annual interest
 
 2. Open account.txt to read and for each line in accounts.txt 
     - Split using the comma and strip the empty characters
