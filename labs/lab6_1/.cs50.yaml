@@ -9,12 +9,10 @@ lab50:
     - !exclude "__init__.py"
     - !include lab6_1.py
  
-
 check50: 
   files: &check50_files
     - !exclude "*"
     - !require lab6_1.py
-
 
 submit50: 
   files: *check50_files

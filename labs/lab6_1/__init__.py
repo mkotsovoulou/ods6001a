@@ -8,7 +8,7 @@ def exists():  # the name of the check
 # only run this check if the exists check has passed
 @check50.check(exists)
 def main_test(exists):
-    """Does the program read the file and count tags ?"""
+    """Does the program execute correctly and print the correct output"""
     output = check50.run("python3 lab6_1.py").stdout()
     if output != "30\n":
         raise check50.Failure("Your code did not produce the expected total number of items")
