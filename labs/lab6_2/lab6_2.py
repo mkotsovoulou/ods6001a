@@ -5,9 +5,15 @@ class BankAccount:
         self.balance = balance
         self.owner = owner
 
+    # create here the deposit method 
+
+    # create here the withdraw method 
+
+    # create here the __str__ method
+
 
 # MAIN PROGRAM
-peters_account = BankAccount("Nik", 100.0)
+nik_account = BankAccount("Nik", 100.0)
 
-print(peters_account.owner)
-print(peters_account.balance)
+print("Owner: ", nik_account.owner)
+print("Balance:", nik_account.balance)
