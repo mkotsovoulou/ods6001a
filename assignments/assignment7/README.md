@@ -1,56 +1,26 @@
-# Programming Problem 8: Web Services
+# Programming Problem 7: OOP
 
-> The purpose of this assignment is to test your understanding and application of the concepts discussed up to **week 7**:
+> The purpose of this assignment is to test your understanding and application of the concepts discussed up to **week 6**:
 >
-> - Call a web service
-> - Retrieve a JSON Object
-> - Load JSON into a Dictionary
-> - Parse Data 
+> - implement object classes and develop program to use them
+> - test, debug and predict program behaviour
 
 ## Specifications
-A company has created a webservice to expose its products, their prices and the number of items they have in stock. The API documentation of the webservice, can be found at: https://dummyjson.com/docs/products
-
-Create a program to download the json products and categories data sets from the following web services:
-- https://dummyjson.com/products
-- https://dummyjson.com/products/categories 
-
-Use the data retrieved to:
-
-1. Find the most expensive product in each category and the product name.
-
-2. The total number of items the company has in stock for the specific category.
-
-3. Produce a formatted output, like the following, in a text file called 'stats.txt':
-```
-CATEGORY           MOST EXPENSIVE PRODUCT           PRICE   CAT STOCK
-----------------   -------------------------------  -----   --------- 
-smartphones        Samsung Universe 9                1249         319
-laptops            MacBook Pro                       1749         386
-fragrances         Non-Alcoholic Concentrated P       120         397
-skincare           Freckle Treatment Cream- 15g        70         470
-groceries          Gulab Powder 50 Gram                70         465
-home-decoration    Handcraft Chinese style             60         263
-```
-Display only those categories where a product exists!
-
-4. Display the price of the most expensive product of all in the terminal.
 
 
-{% spoiler "Hint 1 : Nested Loops" %}
-Loop through the categories and in this Loop, iterate over the products.
+1. Create an add_interest method which will increase the balance by application of the annual interest class variable 
 
-    - If the product category is equal to the current category from the outer loop
+2. Open account.txt to read and for each line in accounts.txt 
+    - Split using the comma and strip the empty characters
+    - Create a BankAccount object with the owner and balance in the line
+    - and add it in the BankAccounts list
 
-        - add the stock to a categoryStock dictionary.
+3. Modify the annual interest (class variable) to 3%
 
-        - check the product price to see if it larger to the previous "larger" price.
+4. Call the add interest method on all Bank Accounts
 
-            - if yes, assign this product's price to a largest variable...and the name to another variable
+5. Calculate the sum of all balances in the list and print it
 
-    - Add the final values to another dictionary with key the category and as a value a list of the required information (product name, price and total category stock)
-
-
-{% endspoiler %}
 
 {% next %}
 
@@ -60,10 +30,10 @@ Loop through the categories and in this Loop, iterate over the products.
 *Remember*: in order to execute your code you type in the terminal:
 
 ```
-python assignment8.py
+python assignment7.py
 
 ```
-
+The sum of all balances after the interest is applied should be 2346.0
 
 ## Check Your Code
 
@@ -74,13 +44,13 @@ If you do not have generated a Personal Access ToKen follow the instructions:
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
 ```
-check50 mkotsovoulou/ods6001a/main/assignments/assignment8
+check50 mkotsovoulou/ods6001a/main/assignments/assignment7
 ```
 
 Execute the below to evaluate the style of your code using `style50`.
 
 ```
-style50 assignment8.py
+style50 assignment7.py
 ```
 
 {% next %}
@@ -90,11 +60,11 @@ style50 assignment8.py
 Execute the command below, logging in with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. 
 
 ```
-submit50 mkotsovoulou/ods6001a/main/assignments/assignment8
+submit50 mkotsovoulou/ods6001a/main/assignments/assignment7
 ```
 
 You can re-submit your solution as many times as you want.
-When you are happy with your solution, download the code and the stats.txt and upload it to Canvas.
+When you are happy with your solution, download the code and upload it to Canvas.
 
 ![Image of download](download.png)
 

@@ -1,15 +1,12 @@
 # THE BANK ACCOUNT CLASS
 class BankAccount:
+    #This is a class variable, common for all instances.
     annual_interest = 0.02
 
-    # The constructor
-    def __init__(self, owner: str, balance: float):
+    # The constructor (if called with just a name the balance will be 0)
+    def __init__(self, owner: str, balance: float = 0.0):
         self.balance = balance
         self.owner = owner
-
-    # create below another constructor with just an owner name and zero balance
-    
-
 
     def deposit(self, amount):
         self.balance = self.balance + amount
@@ -29,15 +26,22 @@ class BankAccount:
 
 
 # MAIN PROGRAM
-nik_account = BankAccount("Nik")
-nik_account.deposit(100)
-nik_account.withdraw(44)
+BankAccounts = []
 
-# Modify the annual interest to 3%
+# Open accounts.txt 
+fhand = open('accounts.txt', 'r')
 
-# Call the add interest method on nik account
+# For each line in accounts.txt 
+#   Split using the comma and strip the empty characters
+#   Create a BankAccount object with the owner and balance in the line
+#   and add it in the BankAccounts list
 
-# Print nik account balance
+
+# Modify the annual interest (class variable) to 3%
+
+# Call the add interest method on all Bank Accounts
+
+# Calculate the sum of all balances in the list and print it
 
 
 
