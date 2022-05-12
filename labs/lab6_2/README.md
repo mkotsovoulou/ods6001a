@@ -4,29 +4,55 @@
 > - implement object classes and develop program to use them
 > - test, debug and predict program behaviour
 
-In `lab6_2.py` in the text editor at top-right, The exercise template contains a pre-defined ShoppingList class, which can be used to model a shopping list. Your task is to add a method to the class definition. You do not need to change any methods already defined.
+In `lab6_2.py` in the text editor at top-right, The exercise template contains a pre-defined BankAccount class, which can be used to model a BankAccount. Your task is to create the following methods in the BankAccount Class
+
+1.  A method to deposit an amount to a BankAccount
+2.  A method to withdraw an amount from a BankAccount
+3.  An __str__ method which will return a string representation of the account
+
 
 ## Specifications
 
-
-### To Do - 1
-
-
-
-{% spoiler "HINT 1:  " %}
-
+1. The Deposit method should accept an amount and increment the account balance by that amount
+2. The Withdraw method should accept an amount and decrement the account balance by that amount. If the balance is not enough the withdrawal is considered as successful and the method should return true, else it should return false.
+3. the __str__ method should return a formatted output like the following: 
+```
+BankAccount Owner:  Mary, Balance: 124.00
 ```
 
+{% spoiler "HINT 1: The Deposit Method " %}
+
+```
+def deposit(self, amount):
+        self.balance = self.balance + amount
+        
 ```
 {% endspoiler %}
 
-### To Do - 2
 
 
+{% spoiler "HINT 2: The WithDraw Method " %}
+
 ```
-def print_shopping_list(my_list):
-    pass
+ def withdraw(self, amount: float):
+        if amount <= self.balance:
+            self.balance -= amount
+            return True
+
+        return False
+        
 ```
+{% endspoiler %}
+
+### To Do
+
+1. Instantiate 1 Bank Account variable which belongs to John and has an initial balance of 1000
+2. Deposit 100 to this Bank Account
+3. Print the result of a withdrawal of 250
+4. Print the Bank Account details
+5. Print thre result of a withdrawl of 5000
+6. Print the Bank Account details
+
 
 {% next %}
 
@@ -37,20 +63,13 @@ Remember in order to execute your code you type in the terminal:
 python lab6_2.py
 ```
 
-Check that your code produces correct results (30 total units). 
+Check that your code produces correct results. 
 
 ```
-bananas: 22 units
-apples: 7 units
-pineapple: 1 units
-30
+
 ```
 
 {% next %}
-
-### To Do - 3
-
-Before submitting, comment out the printing of the shopping list items and just output the total number of items
 
 
 ### Check Your Code
