@@ -25,7 +25,7 @@ In `lab6_2.py` in the text editor at top-right, The exercise template contains a
 
 ```
 def deposit(self, amount):
-        self.balance = self.balance + amount
+        self.balance = self.balance + ______  # Which variable should be added?
         
 ```
 {% endspoiler %}
@@ -38,10 +38,9 @@ def deposit(self, amount):
  def withdraw(self, amount: float):
         if amount <= self.balance:
             self.balance -= amount
-            return True
+            return _____ # what value should be returned? 
 
-        return False
-        
+        return _____ # what value should be returned?       
 ```
 {% endspoiler %}
 
