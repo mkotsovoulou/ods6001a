@@ -1,0 +1,20 @@
+lab50:
+  window:   
+    - editor
+    - readme
+    - terminal
+
+  files: 
+    - !exclude "*"
+    - !exclude "__init__.py"
+    - !include assignment8.py
+
+check50: 
+  files: &check50_files
+    - !exclude "*"
+    - !require assignment8.py
+    - !require stats.txt
+
+submit50: 
+  files: *check50_files
+  style: true
