@@ -6,11 +6,11 @@
 > - test, debug and predict program behaviour
 
 ## Specifications
-In assignment7.py 
+###### In assignment7.py, BankAccount class
 
 1. Complete the add_interest method to increase the balance by applying the annual interest
 
-In the Main Program
+###### In assignment7.py, Main Program**
 2. Open account.txt to read
 
 3. For each line in accounts.txt 
