@@ -21,7 +21,7 @@ if __name__ == "__main__":
 ```
 ### To Do - 1
 
-In the program (not in the class) complete the code of a function named `total_units(my_list: ShoppingList)`, which takes a ShoppingList type object as its argument. 
+In the main program (not in the class) complete the code of a function named `total_units(my_list: ShoppingList)`, which takes a ShoppingList type object as its argument. 
 
 The function should calculate the total number of units in the Shopping List, and return this value. 
 
