@@ -6,20 +6,23 @@
 > - test, debug and predict program behaviour
 
 ## Specifications
+In assignment7.py 
 
+1. Complete the add_interest method to increase the balance by applying the annual interest
 
-1. complete the add_interest method to increase the balance by applying the annual interest
+In the Main Program
+2. Open account.txt to read
 
-2. Open account.txt to read and for each line in accounts.txt 
-    - Split using the comma and strip the empty characters
-    - Create a BankAccount object with the owner and balance in the line
-    - and add it in the BankAccounts list
+3. For each line in accounts.txt 
+   - Split using the comma and strip the empty characters
+   - Create a BankAccount object with the owner and balance in the line
+   - and add it in the BankAccounts list
 
-3. Modify the annual interest (class variable) to 3%
+4. Modify the annual interest (class variable) to 3%
 
-4. Call the add interest method on all Bank Accounts
+5. Call the add interest method on all Bank Accounts
 
-5. Calculate the sum of all balances in the list and print it
+6. Calculate the sum of all balances in the list and print it
 
 
 {% next %}

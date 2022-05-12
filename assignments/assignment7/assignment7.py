@@ -28,8 +28,8 @@ class BankAccount:
 # MAIN PROGRAM
 BankAccounts = []
 
-# Open accounts.txt 
-fhand = open('accounts.txt', 'r')
+# Open accounts.txt for reading
+
 
 # For each line in accounts.txt 
 #   Split using the comma and strip the empty characters
