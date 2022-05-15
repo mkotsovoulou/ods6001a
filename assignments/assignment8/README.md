@@ -1,11 +1,12 @@
-# Programming Problem 8: Web Services
+# Programming Problem 8: Web Services and Pandas
 
 > The purpose of this assignment is to test your understanding and application of the concepts discussed up to **week 7**:
 >
 > - Call a web service
 > - Retrieve a JSON Object
 > - Load JSON into a Dictionary
-> - Parse Data 
+> - Parse Data
+> - Use Pandas Data Frames 
 
 ## Specifications
 A company has created a webservice to expose its products, their prices and the number of items they have in stock. The API documentation of the webservice, can be found at: https://dummyjson.com/docs/products
@@ -35,6 +36,9 @@ Display only those categories where a product exists!
 
 4. Display the price of the most expensive product of all in the terminal.
 
+5. Create a pandas data frame from the data in the stats and produce basic statistics using the describe statement.
+
+6. Extra Challenge: import matplotlib.pyplot and create a bar chart of the product category max prices.
 
 {% spoiler "Hint 1 : Nested Loops" %}
 Loop through the categories and in this Loop, iterate over the products.
