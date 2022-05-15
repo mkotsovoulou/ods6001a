@@ -52,12 +52,12 @@ print(cereal_df.head(5))
 
 2. Check the data types of calories, fiber and fat
 
-{% spoiler "HINT 1: Load csv to a data frame " %}
+{% spoiler "HINT 2: Find out datatypes " %}
 
 ```
-print(df['calories'].dtypes)
-print(df['fiber'].dtypes)
-print(df['fat'].dtypes)
+print(cereal_df['calories'].dtypes)
+print(cereal_df['fiber'].dtypes)
+print(cereal_df['fat'].dtypes)
 ```
 {% endspoiler %}
 
@@ -70,6 +70,15 @@ cereal_df = pd.read_csv("cereal.csv"), na_values = ['not provided'])
 Rerun you code now to see the data fix.
 
 4. Create a calculated column called "low/high" to display "high fat" or "low fat" depending on a condition: less than 5% is low fat, 5% and more is high fat.Display again the first rows to verify your results.
+
+{% spoiler "HINT 3: Define a calculated column " %}
+
+```
+cereal_df['low/high']= np.where(cereal_df['fat']<5, 'low', 'high')
+print(cereal_df.head(5))
+
+```
+{% endspoiler %}
 
 ## Execute your program 
 
