@@ -36,7 +36,7 @@ Display only those categories where a product exists!
 
 4. Display the price of the most expensive product of all in the terminal.
 
-5. Create a pandas data frame from the data in the stats and produce basic statistics using the describe statement.
+5. Create a pandas data frame from the summary dictionary and produce basic statistics using the describe statement.
 
 6. Extra Challenge: import matplotlib.pyplot and create a bar chart of the product category max prices.
 
@@ -51,7 +51,7 @@ Loop through the categories and in this Loop, iterate over the products.
 
             - if yes, assign this product's price to a largest variable...and the name to another variable
 
-    - Add the final values to another dictionary with key the category and as a value a list of the required information (product name, price and total category stock)
+    - Add the final values to another dictionary called summary with key the category and as a value a list of the required information (product name, price and total category stock)
 
 
 {% endspoiler %}
