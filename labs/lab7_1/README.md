@@ -2,7 +2,7 @@
 
 > The purpose of this practice is to help you apply the concepts discussed up to **now**: 
 >
-> - Read and parse data from different file types
+> - read and parse data from different file types
 > - use Pandas to create a DataFrame
 > - perform basic data frame manipulation
 
