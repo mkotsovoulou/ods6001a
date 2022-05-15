@@ -8,13 +8,14 @@ lab50:
     - !exclude "*"
     - !exclude "__init__.py"
     - !include lab7_1.py
-    - !include 2021-07-08_clean-hashtags.tsv 
+    - !include cereal.csv
+   
 
 check50: 
   files: &check50_files
     - !exclude "*"
     - !require lab7_1.py
-    - !require 2021-07-08_clean-hashtags.tsv
+    
 
 submit50: 
   files: *check50_files
