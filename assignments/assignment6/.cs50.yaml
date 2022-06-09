@@ -14,7 +14,7 @@ lab50:
 check50: 
   files: &check50_files
     - !exclude "*"
-    - !require assignment5.py
+    - !require assignment6.py
     - !require course1.txt
     - !require course2.txt
 
