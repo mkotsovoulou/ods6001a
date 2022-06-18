@@ -7,6 +7,6 @@ def exists():  # the name of the check
 
 @check50.check()
 def main_test(exists):
-    """Does the program apply the interest and calculate the sum correctly ?"""
-    check50.run("python3 assignment7.py").stdout("2346.0\n").exit(0)
+    """Does the program apply the 3% interest and calculate the sum correctly ?"""
+    check50.run("python3 assignment7.py").stdout("2369.0\n").exit(0)
 
