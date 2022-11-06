@@ -15,6 +15,9 @@ check50:
     - !require assignment8.py
     - !require stats.txt
 
+  dependencies:
+    - matplotlib
+
 submit50: 
   files: *check50_files
   style: true
