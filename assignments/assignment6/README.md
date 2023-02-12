@@ -14,7 +14,7 @@ The file contains one lastname and a firstname per line separated by commas ,
 Load the data in two sets of tuples called course1 and course2
 
 When the data are loaded to the following:
-1. Count how many students exist 
+1. Count how many unique students exist 
 2. Count how many students take both courses
 3. Count how many students appear in course 1 but not in course 2.
 
