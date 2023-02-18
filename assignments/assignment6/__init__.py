@@ -9,20 +9,20 @@ def exists():  # the name of the check
 def main_test():
     """Does the program display the output correctly ?"""
     from re import match
-    expected = "21 8 9\n"
+    expected = "21 9 8\n"
     actual = check50.run("python3 assignment6.py").stdout()
 
-    if "21" in actual and "8" not in actual:
+    if "21" in actual and "9" not in actual:
         help = r"Almost! You found all students but not the common one!"
         if not match(expected, actual):
             raise check50.Mismatch("Common students not correct\n", actual, help=help)
 
-    if "21" in actual and "9" not in actual:
+    if "21" in actual and "8" not in actual:
         help = r"Almost! You found all students but not the different ones!"
         if not match(expected, actual):
             raise check50.Mismatch("Different students not correct\n", actual, help=help)
 
     if not match(expected, actual):
         help=None
-        raise check50.Mismatch("21 8 9\n", actual, help=help)
+        raise check50.Mismatch("21 9 8\n", actual, help=help)
 
