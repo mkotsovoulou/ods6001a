@@ -11,7 +11,7 @@ def exists():  # the name of the check
 # only run this check if the exists check has passed
 @check50.check(exists)
 def main_test(exists):
-    """Does the program read the file and count the letter with the highest frequency ?"""
+    """Does the program read the file and count the letter with the highest frequency ? Correct output is E 661"""
     output = check50.run("python3 lab5_1.py").stdout()
     if output != "E 661\n":
         raise check50.Failure("Your code did not produce the expected count...")
