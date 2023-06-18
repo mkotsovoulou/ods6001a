@@ -11,7 +11,7 @@ def main_test():
     from re import match
     expected = "21 9 8\n"
     actual = check50.run("python3 assignment6.py").stdout()
-
+    """21 9 8 is the correct output"""
     if "21" in actual and "9" not in actual:
         help = r"Almost! You found all students but not the common one!"
         if not match(expected, actual):
