@@ -15,14 +15,14 @@ def main_test():
     if "21" in actual and "9" not in actual:
         help = r"Almost! You found all students but not the common one!"
         if not match(expected, actual):
-            raise check50.Mismatch("21 9 8\n", actual, help=help)
+            raise check50.Mismatch("21 9 8", actual, help=help)
 
     if "21" in actual and "8" not in actual:
         help = r"Almost! You found all students but not the different ones!"
         if not match(expected, actual):
-            raise check50.Mismatch("21 9 8\n", actual, help=help)
+            raise check50.Mismatch("21 9 8", actual, help=help)
 
     if not match(expected, actual):
         help = r"Result not wait expected..."
-        raise check50.Mismatch("21 9 8\n", actual, help=help)
+        raise check50.Mismatch("21 9 8", actual, help=help)
 
