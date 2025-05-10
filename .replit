@@ -33,3 +33,12 @@ author = 11113222
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python /home/runner/workspace/labs/lab1_1/test_lab1_1.py"
+
+[[workflows.workflow]]
+name = "test lab1_2"
+author = 11113222
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python /home/runner/workspace/labs/lab1_2/test_lab1_2.py"
