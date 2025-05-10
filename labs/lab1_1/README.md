@@ -76,7 +76,7 @@ Make sure that the output is 2.0!
 
 ### Check Your Code
 
-Run your code using the `test_lab1_1.py` to evaluate the correctness of your code using my predefined `unitests`, but be sure to test it yourself before that...
+Run your code using the `test_lab1_1.py` to evaluate the correctness of your code using my predefined `unit tests`, but be sure to test it yourself before that...
 
 
 
