@@ -18,6 +18,21 @@ class TestLab1_1(unittest.TestCase):
         self.assertIn('Difference: 2.0', output, "Expected difference of 5 - 3 to be 2.0")
 
     @patch('builtins.input', side_effect=['7', '2'])
+
+
+    @patch('builtins.input', side_effect=['10', '20'])
+    def test_sum_additional(self, mock_input):
+        captured_output = io.StringIO()
+        sys.stdout = captured_output
+        from lab1_1 import main
+        main()
+        output = captured_output.getvalue()
+        sys.stdout = sys.__stdout__
+
+        self.assertIn('Sum: 30.0', output, "Expected sum of 10 + 20 to be 30.0")
+        self.assertIn('Difference: 7.0', output, "Expected difference of 10 - 3 to be 7.0")
+
+
     def test_difference(self, mock_input):
         captured_output = io.StringIO()
         sys.stdout = captured_output
