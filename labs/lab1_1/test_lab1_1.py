@@ -27,7 +27,7 @@ class TestLab1_1(unittest.TestCase):
         sys.stdout = sys.__stdout__
 
         self.assertIn('Sum: 9.0', output, "Expected sum of 7 + 2 to be 9.0")
-        self.assertIn('Difference: 5.0', output, "Expected difference of 7 - 2 to be 5.0")
+        self.assertIn('Difference: 5.0', output)
 
 if __name__ == '__main__':
     unittest.main()
