@@ -3,7 +3,7 @@ def main():
   x = float(input("x: "))
   y = float(input("y: "))
   sum = x + y
-  difference = x - y
+  difference = x - 3
   print(f"Sum: {sum}")
   print(f"Difference: {difference}")
 
