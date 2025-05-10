@@ -6,7 +6,7 @@ import io
 import sys
 
 class TestLab1_1(unittest.TestCase):
-    @patch('builtins.input', side_effect=['5', '3'])
+    @patch('builtins.input', side_effect=['1', '1'])
     def test_sum(self, mock_input):
         # Capture stdout to verify output
         captured_output = io.StringIO()
@@ -21,8 +21,8 @@ class TestLab1_1(unittest.TestCase):
         # Reset stdout
         sys.stdout = sys.__stdout__
         
-        # Check if sum is correct (5 + 3 = 8)
-        self.assertIn('Sum: 8.0', output)
+        # Check if sum is correct (1 + 1 = 2)
+        self.assertIn('Sum: 2.0', output)
 
     @patch('builtins.input', side_effect=['10', '4'])
     def test_difference(self, mock_input):
