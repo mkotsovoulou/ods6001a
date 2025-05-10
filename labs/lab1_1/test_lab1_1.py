@@ -23,6 +23,7 @@ class TestLab1_1(unittest.TestCase):
         
         # Check if sum is correct (1 + 1 = 2)
         self.assertIn('Sum: 2.0', output)
+        self.assertIn('Difference: 0.0', output)
 
     @patch('builtins.input', side_effect=['10', '4'])
     def test_difference(self, mock_input):
@@ -33,7 +34,7 @@ class TestLab1_1(unittest.TestCase):
         
         output = captured_output.getvalue()
         sys.stdout = sys.__stdout__
-        
+        self.assertIn('Sum: 14.0', output)
         # Check if difference is correct (10 - 4 = 6)
         self.assertIn('Difference: 6.0', output)
 
