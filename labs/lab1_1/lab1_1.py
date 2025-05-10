@@ -1,7 +1,7 @@
 
 def main():
-  x = (input("x: "))
-  y = (input("y: "))
+  x = int(input("x: "))
+  y = int(input("y: "))
   sum = x + y
 
   print(f"Sum: {sum}")
