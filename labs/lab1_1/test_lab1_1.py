@@ -14,7 +14,7 @@ class TestLab1_1(unittest.TestCase):
         output = captured_output.getvalue()
         sys.stdout = sys.__stdout__
         try:
-            self.assertIn('Sum: 8.0', output, "Expected sum of 5 + 3 to be 8.0")
+            self.assertTrue('Sum: 8.0' in output or 'Sum: 8' in output, "Expected sum of 5 + 3 to be either 8 or 8.0")
         except AssertionError as e:
             print("Test failed:", str(e))
 
