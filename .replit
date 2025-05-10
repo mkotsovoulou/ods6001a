@@ -1,0 +1,44 @@
+entrypoint = "main.py"
+modules = ["python-3.10:v18-20230807-322e88b"]
+
+hidden = [".pythonlibs"]
+
+[nix]
+channel = "stable-23_05"
+
+[unitTest]
+language = "python3"
+
+[deployment]
+run = ["python3", "main.py"]
+deploymentTarget = "cloudrun"
+
+[workflows]
+runButton = "test lab1_2"
+
+[[workflows.workflow]]
+name = "Lab1_1"
+mode = "sequential"
+author = 11113222
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python /home/runner/workspace/labs/lab1_1/lab1_1.py"
+
+[[workflows.workflow]]
+name = "test lab1_1"
+mode = "sequential"
+author = 11113222
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python /home/runner/workspace/labs/lab1_1/test_lab1_1.py"
+
+[[workflows.workflow]]
+name = "test lab1_2"
+author = 11113222
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python /home/runner/workspace/labs/lab1_2/test_lab1_2.py"
