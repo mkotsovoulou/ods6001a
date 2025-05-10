@@ -11,16 +11,17 @@ class TestLab1_1(unittest.TestCase):
         # Capture stdout to verify output
         captured_output = io.StringIO()
         sys.stdout = captured_output
-        
+
         # Import and run the program
-        import lab1_1
-        
+        from lab1_1 import main
+        main()
+
         # Get the output
         output = captured_output.getvalue()
-        
+
         # Reset stdout
         sys.stdout = sys.__stdout__
-        
+
         # Check if sum is correct (1 + 1 = 2)
         self.assertIn('Sum: 2.0', output)
         self.assertIn('Difference: 0.0', output)
@@ -29,9 +30,10 @@ class TestLab1_1(unittest.TestCase):
     def test_difference(self, mock_input):
         captured_output = io.StringIO()
         sys.stdout = captured_output
-        
-        import lab1_1
-        
+
+        from lab1_1 import main
+        main()
+
         output = captured_output.getvalue()
         sys.stdout = sys.__stdout__
         self.assertIn('Sum: 14.0', output)

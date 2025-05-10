@@ -1,8 +1,11 @@
 
-x = float(input("x: "))
-y = float(input("y: "))
-sum = x + y
-difference = x - y
-print(f"Sum: {sum}")
-print(f"Difference: {difference}")
- 
+def main():
+    x = float(input("x: "))
+    y = float(input("y: "))
+    sum = x + y
+    difference = x - y
+    print(f"Sum: {sum}")
+    print(f"Difference: {difference}")
+
+if __name__ == "__main__":
+    main()
